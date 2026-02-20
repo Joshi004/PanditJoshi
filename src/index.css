@@ -18,10 +18,10 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-saffron-500 hover:bg-saffron-600 text-white font-body font-bold px-6 py-3 rounded-md transition-all duration-200 shadow-md hover:shadow-lg;
+    @apply bg-saffron-500 hover:bg-saffron-600 active:scale-95 text-white font-body font-bold px-6 py-3 rounded-md transition-all duration-200 shadow-md hover:shadow-lg;
   }
   .btn-outline {
-    @apply border-2 border-maroon-800 text-maroon-800 hover:bg-maroon-800 hover:text-white font-body font-bold px-6 py-3 rounded-md transition-all duration-200;
+    @apply border-2 border-maroon-800 text-maroon-800 hover:bg-maroon-800 hover:text-white active:scale-95 font-body font-bold px-6 py-3 rounded-md transition-all duration-200;
   }
   .section-title {
     @apply font-heading text-3xl md:text-4xl text-maroon-800 text-center mb-3;
@@ -33,13 +33,56 @@
     @apply w-20 h-1 bg-gold-500 mx-auto mb-8 rounded-full;
   }
   .card {
-    @apply bg-ivory-50 border border-gold-300 rounded-lg p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200;
+    @apply bg-ivory-50 border border-gold-300 rounded-xl p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200;
+  }
+  .page-header-om {
+    @apply absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden;
   }
 }
 
 @layer utilities {
   .mandala-bg {
-    background-image: radial-gradient(circle at 10% 20%, rgba(197,150,46,0.07) 0%, transparent 50%),
-                      radial-gradient(circle at 90% 80%, rgba(232,117,26,0.07) 0%, transparent 50%);
+    background-image:
+      radial-gradient(circle at 10% 20%, rgba(197,150,46,0.08) 0%, transparent 50%),
+      radial-gradient(circle at 90% 80%, rgba(232,117,26,0.08) 0%, transparent 50%),
+      radial-gradient(circle at 50% 50%, rgba(197,150,46,0.04) 0%, transparent 70%);
   }
+
+  .cta-gradient {
+    background: linear-gradient(135deg, #E8751A 0%, #C5962E 40%, #d4600f 70%, #E8751A 100%);
+    background-size: 300% 300%;
+    animation: gradientShift 6s ease infinite;
+  }
+}
+
+/* Gradient shift animation for CTA */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Subtle diya flicker for decorative purposes */
+@keyframes flicker {
+  0%, 100% { opacity: 1; transform: scaleY(1); }
+  25%       { opacity: 0.9; transform: scaleY(0.97); }
+  50%       { opacity: 1; transform: scaleY(1.03); }
+  75%       { opacity: 0.92; transform: scaleY(0.98); }
+}
+
+/* Floating animation for small decorative elements */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Page header lotus pattern — subtle repeating SVG background */
+.lotus-header-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpath d='M30 10 Q26 20 30 25 Q34 20 30 10Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3Cpath d='M30 10 Q20 18 22 25 Q28 22 30 25Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3Cpath d='M30 10 Q40 18 38 25 Q32 22 30 25Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3Cpath d='M30 40 Q26 30 30 25 Q34 30 30 40Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 60px 60px;
 }
