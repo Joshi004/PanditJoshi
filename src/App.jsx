@@ -39,7 +39,7 @@ function AppLayout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PanditJoshi">
       <AppLayout />
     </BrowserRouter>
   )
