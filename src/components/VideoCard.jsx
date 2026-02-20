@@ -1,6 +1,6 @@
 export default function VideoCard({ video }) {
   return (
-    <div className="bg-ivory-50 border border-gold-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200">
+    <div className="bg-white border border-gold-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200 group">
       {/* YouTube Embed — responsive 16:9 */}
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
         <iframe
@@ -12,8 +12,10 @@ export default function VideoCard({ video }) {
         />
       </div>
       {/* Card body */}
-      <div className="p-4">
-        <h3 className="font-heading text-lg text-maroon-800 font-semibold mb-1">{video.title}</h3>
+      <div className="px-5 py-4 border-t border-gold-100">
+        <h3 className="font-heading text-base text-maroon-800 font-semibold mb-1 group-hover:text-saffron-600 transition-colors duration-200">
+          {video.title}
+        </h3>
         <p className="font-body text-sm text-brown-700 leading-relaxed">{video.description}</p>
       </div>
     </div>

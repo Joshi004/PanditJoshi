@@ -1,4 +1,30 @@
-import ContactForm from '../components/ContactForm'
+const languages = ['Hindi', 'Gujarati', 'Nepali', 'Punjabi', 'English']
+
+function EnvelopeIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 flex-shrink-0">
+      <rect x="2" y="4" width="20" height="16" rx="2" />
+      <polyline points="2,4 12,13 22,4" />
+    </svg>
+  )
+}
+
+function PhoneIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 flex-shrink-0">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3 1.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16h1z" />
+    </svg>
+  )
+}
+
+function MapPinIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 flex-shrink-0">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+      <circle cx="12" cy="10" r="3" />
+    </svg>
+  )
+}
 
 export default function Contact() {
   return (
@@ -17,92 +43,91 @@ export default function Contact() {
       </div>
 
       {/* Content */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
-          {/* Form — takes 3 cols */}
-          <div className="lg:col-span-3 bg-white border border-gold-300 rounded-xl shadow-sm p-8">
-            <h2 className="font-heading text-2xl text-maroon-800 mb-1">Get In Touch</h2>
-            <p className="font-body text-sm text-brown-600 mb-6">
-              Fill out the form and Pandit Joshi will respond as soon as possible.
-            </p>
-            <ContactForm />
-          </div>
+      <div className="max-w-lg mx-auto px-4 sm:px-6 py-14 flex flex-col gap-6">
 
-          {/* Info panel — takes 2 cols */}
-          <div className="lg:col-span-2 flex flex-col gap-6">
-            {/* Contact details */}
-            <div className="bg-saffron-500 rounded-xl p-7 text-white">
-              <h3 className="font-heading text-xl font-semibold mb-5">Contact Information</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <span className="text-xl mt-0.5">✉</span>
-                  <div>
-                    <p className="font-body text-xs opacity-75 uppercase tracking-wide mb-0.5">
-                      Email
-                    </p>
-                    <a
-                      href="mailto:panditjoshiji@gmail.com"
-                      className="font-body text-sm font-semibold hover:underline break-all"
-                    >
-                      panditjoshiji@gmail.com
-                    </a>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-xl mt-0.5">☎</span>
-                  <div>
-                    <p className="font-body text-xs opacity-75 uppercase tracking-wide mb-0.5">
-                      Phone
-                    </p>
-                    <a
-                      href="tel:4043863267"
-                      className="font-body text-sm font-semibold hover:underline"
-                    >
-                      404-386-3267
-                    </a>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-xl mt-0.5">📍</span>
-                  <div>
-                    <p className="font-body text-xs opacity-75 uppercase tracking-wide mb-0.5">
-                      Service Area
-                    </p>
-                    <p className="font-body text-sm">Atlanta, GA & surrounding areas</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            {/* Services reminder */}
-            <div className="bg-ivory-100 border border-gold-300 rounded-xl p-6">
-              <h3 className="font-heading text-lg text-maroon-800 mb-3">Languages</h3>
-              <div className="flex flex-wrap gap-2">
-                {['Hindi', 'Gujarati', 'Nepali', 'Punjabi', 'English'].map((lang) => (
-                  <span
-                    key={lang}
-                    className="font-body text-xs font-semibold text-maroon-800 bg-white border border-gold-300 rounded-full px-3 py-1"
-                  >
-                    {lang}
-                  </span>
-                ))}
-              </div>
-              <p className="font-body text-xs text-brown-600 mt-4 leading-relaxed">
-                Ceremonies can be performed at your home, temple, or at the opening of a new
-                office or venture.
+        {/* Contact Action Card */}
+        <div className="bg-white border border-gold-300 rounded-2xl shadow-sm overflow-hidden">
+          {/* Email */}
+          <a
+            href="mailto:panditjoshiji@gmail.com"
+            className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+          >
+            <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
+              <EnvelopeIcon />
+            </span>
+            <div className="flex-1 min-w-0">
+              <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Email</p>
+              <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors truncate">
+                panditjoshiji@gmail.com
               </p>
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-gold-400 flex-shrink-0">
+              <polyline points="9,18 15,12 9,6" />
+            </svg>
+          </a>
 
-            {/* Blessing quote */}
-            <div className="bg-maroon-800 rounded-xl p-6 text-center">
-              <span className="text-gold-400 text-3xl font-heading block mb-2">ॐ</span>
-              <p className="font-heading text-lg text-ivory-50 italic">|| Radhe Radhe ||</p>
-              <p className="font-body text-xs text-ivory-300 mt-2">
-                May your ceremonies bring peace, prosperity, and divine blessings.
+          {/* Phone */}
+          <a
+            href="tel:4043863267"
+            className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+          >
+            <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
+              <PhoneIcon />
+            </span>
+            <div className="flex-1">
+              <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Phone</p>
+              <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
+                404-386-3267
+              </p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-gold-400 flex-shrink-0">
+              <polyline points="9,18 15,12 9,6" />
+            </svg>
+          </a>
+
+          {/* Location (non-clickable) */}
+          <div className="flex items-center gap-4 px-6 py-5 text-maroon-800">
+            <span className="text-saffron-500">
+              <MapPinIcon />
+            </span>
+            <div className="flex-1">
+              <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Service Area</p>
+              <p className="font-body text-base font-semibold text-maroon-800">
+                Atlanta, GA &amp; surrounding areas
               </p>
             </div>
           </div>
         </div>
+
+        {/* Languages */}
+        <div className="bg-white border border-gold-300 rounded-2xl shadow-sm px-6 py-5">
+          <h3 className="font-heading text-base text-maroon-800 font-semibold mb-3">
+            Ceremonies Performed In
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {languages.map((lang) => (
+              <span
+                key={lang}
+                className="font-body text-xs font-semibold text-maroon-800 bg-ivory-100 border border-gold-300 rounded-full px-3 py-1"
+              >
+                {lang}
+              </span>
+            ))}
+          </div>
+          <p className="font-body text-xs text-brown-600 mt-4 leading-relaxed">
+            Ceremonies can be performed at your home, temple, or at the opening of a new office or venture.
+          </p>
+        </div>
+
+        {/* Blessing Quote */}
+        <div className="bg-maroon-800 rounded-2xl px-6 py-7 text-center">
+          <span className="text-gold-400 text-3xl font-heading block mb-2">ॐ</span>
+          <p className="font-heading text-lg text-ivory-50 italic">|| Radhe Radhe ||</p>
+          <p className="font-body text-xs text-ivory-300 mt-2 leading-relaxed">
+            May your ceremonies bring peace, prosperity, and divine blessings.
+          </p>
+        </div>
+
       </div>
     </div>
   )

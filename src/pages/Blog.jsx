@@ -1,7 +1,9 @@
-import BlogCard from '../components/BlogCard'
+import BlogCard, { FeaturedBlogCard } from '../components/BlogCard'
 import { blogPosts } from '../data/blogPosts'
 
 export default function Blog() {
+  const [featured, ...rest] = blogPosts
+
   return (
     <div className="bg-ivory-50 min-h-screen">
       {/* Page Header */}
@@ -17,13 +19,18 @@ export default function Blog() {
         </p>
       </div>
 
-      {/* Blog Cards */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="space-y-8">
-          {blogPosts.map((post) => (
-            <BlogCard key={post.slug} post={post} />
-          ))}
-        </div>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
+        {/* Featured Post */}
+        {featured && <FeaturedBlogCard post={featured} />}
+
+        {/* Remaining Posts Grid */}
+        {rest.length > 0 && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {rest.map((post) => (
+              <BlogCard key={post.slug} post={post} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )

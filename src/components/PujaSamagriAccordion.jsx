@@ -1,55 +1,70 @@
 import { useState } from 'react'
 
+function ChevronIcon({ open }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={`w-4 h-4 text-saffron-500 flex-shrink-0 transition-transform duration-300 ${open ? 'rotate-180' : 'rotate-0'}`}
+    >
+      <polyline points="6,9 12,15 18,9" />
+    </svg>
+  )
+}
+
 export default function PujaSamagriAccordion({ puja }) {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="border border-gold-300 rounded-lg overflow-hidden shadow-sm">
+    <div className="border border-gold-200 rounded-2xl overflow-hidden shadow-sm bg-white">
       {/* Header */}
       <button
         onClick={() => setOpen((o) => !o)}
-        className="w-full flex items-center justify-between px-6 py-4 bg-saffron-500 hover:bg-saffron-600 transition-colors duration-200 text-left"
+        className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-ivory-100 transition-colors duration-200 focus:outline-none group"
+        aria-expanded={open}
       >
-        <span className="font-heading text-lg md:text-xl text-white font-semibold">
-          {puja.name}
-        </span>
-        <span className="text-white text-xl font-bold ml-4 flex-shrink-0">
-          {open ? '▲' : '▼'}
-        </span>
+        <div className="flex items-center gap-3">
+          <span className="w-1 h-8 rounded-full bg-gold-400 flex-shrink-0" />
+          <span className="font-heading text-base md:text-lg text-maroon-800 font-semibold">
+            {puja.name}
+          </span>
+        </div>
+        <ChevronIcon open={open} />
       </button>
 
-      {/* Content */}
-      {open && (
-        <div className="bg-ivory-50 p-4 md:p-6 overflow-x-auto print:block">
-          <p className="font-body text-sm text-brown-600 italic mb-4">
-            Items marked with <strong>—</strong> in the Quantity column do not have a fixed
-            quantity and can be brought as per availability.
-          </p>
-          <table className="w-full text-sm font-body border-collapse">
-            <thead>
-              <tr className="bg-maroon-800 text-white">
-                <th className="text-left px-4 py-2 font-semibold w-8">#</th>
-                <th className="text-left px-4 py-2 font-semibold">Item</th>
-                <th className="text-left px-4 py-2 font-semibold w-36">Quantity</th>
-              </tr>
-            </thead>
-            <tbody>
-              {puja.items.map((item, idx) => (
-                <tr
-                  key={idx}
-                  className={idx % 2 === 0 ? 'bg-ivory-50' : 'bg-ivory-100'}
-                >
-                  <td className="px-4 py-2 text-brown-600">{idx + 1}</td>
-                  <td className="px-4 py-2 text-brown-900">{item.name}</td>
-                  <td className="px-4 py-2 text-brown-700">
-                    {item.quantity ? item.quantity : <span className="text-brown-400">—</span>}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+      {/* Expandable Content */}
+      <div
+        className={`overflow-hidden transition-all duration-300 ease-in-out ${
+          open ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <div className="border-t border-gold-100 px-6 py-4">
+          <ul className="divide-y divide-gold-100">
+            {puja.items.map((item, idx) => (
+              <li key={idx} className="flex items-center justify-between gap-4 py-3">
+                <div className="flex items-center gap-3 min-w-0">
+                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400 flex-shrink-0" />
+                  <span className="font-body text-sm text-brown-900 leading-snug">{item.name}</span>
+                </div>
+                {item.quantity ? (
+                  <span className="font-body text-xs font-semibold text-maroon-800 bg-ivory-100 border border-gold-200 rounded-full px-3 py-0.5 flex-shrink-0 whitespace-nowrap">
+                    {item.quantity}
+                  </span>
+                ) : (
+                  <span className="font-body text-xs text-brown-400 flex-shrink-0 italic whitespace-nowrap">
+                    as needed
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
         </div>
-      )}
+      </div>
     </div>
   )
 }
