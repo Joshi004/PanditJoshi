@@ -23,7 +23,7 @@ export default function Home() {
             <div className="flex-shrink-0 flex flex-col items-center">
               <div className="rounded-full border-4 border-gold-400 shadow-xl overflow-hidden w-56 h-56 md:w-72 md:h-72">
                 <img
-                  src="/pandit-joshi.png"
+                  src={`${import.meta.env.BASE_URL}pandit-joshi.png`}
                   alt="Pandit Joshi"
                   className="w-full h-full object-cover object-top"
                 />
