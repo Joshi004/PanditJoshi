@@ -80,6 +80,15 @@
   animation: float 3s ease-in-out infinite;
 }
 
+/* Hide scrollbar for horizontal scroll containers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Page header lotus pattern — subtle repeating SVG background */
 .lotus-header-bg {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpath d='M30 10 Q26 20 30 25 Q34 20 30 10Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3Cpath d='M30 10 Q20 18 22 25 Q28 22 30 25Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3Cpath d='M30 10 Q40 18 38 25 Q32 22 30 25Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3Cpath d='M30 40 Q26 30 30 25 Q34 30 30 40Z' fill='%23ffffff' fill-opacity='0.04'/%3E%3C/svg%3E");
