@@ -287,6 +287,25 @@ function SunderkandIcon({ className }) {
   )
 }
 
+function BabyShowerIcon({ className }) {
+  return (
+    <svg className={className} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Flower garland — Godh Bharai flowers */}
+      <circle cx="14" cy="12" r="3.5" fill="#fda4af" opacity="0.9"/>
+      <circle cx="14" cy="12" r="1.8" fill="#FCD34D"/>
+      <circle cx="24" cy="9" r="3.5" fill="#fb7185" opacity="0.9"/>
+      <circle cx="24" cy="9" r="1.8" fill="#FCD34D"/>
+      <circle cx="34" cy="12" r="3.5" fill="#fda4af" opacity="0.9"/>
+      <circle cx="34" cy="12" r="1.8" fill="#FCD34D"/>
+      <path d="M14 12 Q19 10 24 9 Q29 10 34 12" stroke="#C5962E" strokeWidth="1" fill="none"/>
+      {/* Baby bump — the "goad" (lap) being filled */}
+      <circle cx="24" cy="32" r="13" fill="#fef9ee" stroke="#C5962E" strokeWidth="1.5"/>
+      {/* Om blessing on bump */}
+      <text x="24" y="36" textAnchor="middle" fontSize="12" fontFamily="serif" fill="#C5962E">ॐ</text>
+    </svg>
+  )
+}
+
 function BhajanSandhyaIcon({ className }) {
   return (
     <svg className={className} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -368,6 +387,7 @@ const icons = {
   janeu: JaneuIcon,
   wedding: WeddingIcon,
   navgraha: NavgrahaIcon,
+  'baby-shower': BabyShowerIcon,
   'musical-puja': MusicalPujaIcon,
   'akhanda-ramayan': AkhandaRamayanIcon,
   'mata-ki-chowki': MataKiChowkiIcon,
