@@ -242,14 +242,14 @@ export default function Home() {
             ))}
           </StaggerContainer>
           <AnimatedSection variant="fadeUp" delay={0.2} className="text-center">
-            <div className="flex flex-wrap gap-4 justify-center">
-              <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} className="inline-block">
-                <Link to="/services" className="btn-primary">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center items-center">
+              <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
+                <Link to="/services" className="btn-primary inline-block text-center">
                   View All Services →
                 </Link>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} className="inline-block">
-                <Link to="/puja-samagri" className="btn-outline">
+              <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
+                <Link to="/puja-samagri" className="btn-outline inline-block text-center">
                   Puja Samagri Lists
                 </Link>
               </motion.div>
