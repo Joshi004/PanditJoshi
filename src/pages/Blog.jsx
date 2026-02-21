@@ -2,9 +2,25 @@ import { motion } from 'framer-motion'
 import BlogCard, { FeaturedBlogCard } from '../components/BlogCard'
 import AnimatedSection, { StaggerContainer, AnimatedItem } from '../components/AnimatedSection'
 import { blogPosts } from '../data/blogPosts'
+import { getActiveFestivals } from '../utils/festivalScheduler'
 
 export default function Blog() {
-  const [featured, ...rest] = blogPosts
+  const activeFestivals = getActiveFestivals()
+
+  let featuredPosts = []
+  let rest = [...blogPosts]
+
+  for (const festival of activeFestivals) {
+    const idx = rest.findIndex((p) => p.slug === festival.articleSlug)
+    if (idx !== -1) {
+      featuredPosts.push(rest[idx])
+      rest = rest.filter((_, i) => i !== idx)
+    }
+  }
+
+  if (featuredPosts.length === 0) {
+    featuredPosts = [rest.shift()]
+  }
 
   return (
     <div className="bg-ivory-50 min-h-screen">
@@ -32,12 +48,12 @@ export default function Blog() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
-        {/* Featured Post */}
-        {featured && (
-          <AnimatedSection variant="fadeUp">
-            <FeaturedBlogCard post={featured} />
+        {/* Featured Posts */}
+        {featuredPosts.map((post) => (
+          <AnimatedSection key={post.slug} variant="fadeUp">
+            <FeaturedBlogCard post={post} />
           </AnimatedSection>
-        )}
+        ))}
 
         {/* Remaining Posts Grid */}
         {rest.length > 0 && (

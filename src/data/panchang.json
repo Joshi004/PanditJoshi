@@ -1,0 +1,5112 @@
+{
+  "2026-01-01": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-02": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-03": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-04": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-05": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-06": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-07": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-08": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-09": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-10": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-11": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-12": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-13": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Pausa",
+    "vikramYear": 2082
+  },
+  "2026-01-14": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-15": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-16": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-17": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-18": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-19": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-20": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-21": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-22": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-23": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-24": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-25": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-26": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-27": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-28": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-29": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-30": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-01-31": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-01": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-02": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-03": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-04": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-05": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-06": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-07": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-08": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-09": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-10": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-11": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-12": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Magha",
+    "vikramYear": 2082
+  },
+  "2026-02-13": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-14": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-15": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-16": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-17": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-18": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-19": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-20": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-21": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-22": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-23": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-24": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-25": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-26": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-27": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-02-28": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-01": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-02": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-03": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-04": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-05": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-06": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-07": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-08": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-09": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-10": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-11": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-12": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-13": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-14": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Phalguna",
+    "vikramYear": 2082
+  },
+  "2026-03-15": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-16": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-17": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-18": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-19": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-20": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-21": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-22": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-23": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-24": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-25": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-26": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-27": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-28": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-29": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-30": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-03-31": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Chaitra",
+    "vikramYear": 2082
+  },
+  "2026-04-01": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-02": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-03": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-04": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-05": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-06": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-07": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-08": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-09": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-10": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-11": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-12": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-13": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2026-04-14": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-15": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-16": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-17": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-18": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-19": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-20": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-21": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-22": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-23": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-24": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-25": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-26": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-27": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-28": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-29": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-04-30": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-01": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-02": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-03": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-04": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-05": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-06": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-07": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-08": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-09": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-10": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-11": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-12": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-13": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-14": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Baisakha",
+    "vikramYear": 2083
+  },
+  "2026-05-15": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-16": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-17": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-18": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-19": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-20": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-21": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-22": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-23": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-24": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-25": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-26": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-27": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-28": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-29": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-30": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-05-31": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-01": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-02": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-03": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-04": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-05": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-06": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-07": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-08": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-09": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-10": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-11": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-12": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-13": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-14": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Jyestha",
+    "vikramYear": 2083
+  },
+  "2026-06-15": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-16": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-17": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-18": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-19": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-20": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-21": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-22": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-23": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-24": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-25": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-26": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-27": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-28": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-29": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-06-30": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-01": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-02": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-03": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-04": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-05": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-06": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-07": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-08": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-09": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-10": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-11": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-12": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-13": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-14": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-15": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-16": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Asadha",
+    "vikramYear": 2083
+  },
+  "2026-07-17": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-18": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-19": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-20": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-21": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-22": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-23": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-24": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-25": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-26": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-27": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-28": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-29": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-30": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-07-31": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-01": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-02": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-03": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-04": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-05": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-06": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-07": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-08": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-09": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-10": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-11": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-12": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-13": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-14": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-15": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-16": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Srabana",
+    "vikramYear": 2083
+  },
+  "2026-08-17": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-18": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-19": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-20": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-21": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-22": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-23": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-24": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-25": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-26": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-27": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-28": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-29": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-30": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-08-31": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-01": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-02": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-03": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-04": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-05": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-06": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-07": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-08": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-09": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-10": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-11": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-12": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-13": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-14": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-15": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-16": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Bhadraba",
+    "vikramYear": 2083
+  },
+  "2026-09-17": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-18": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-19": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-20": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-21": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-22": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-23": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-24": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-25": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-26": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-27": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-28": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-29": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-09-30": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-01": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-02": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-03": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-04": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-05": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-06": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-07": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-08": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-09": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-10": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-11": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-12": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-13": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-14": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-15": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-16": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-17": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Aswina",
+    "vikramYear": 2083
+  },
+  "2026-10-18": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-19": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-20": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-21": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-22": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-23": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-24": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-25": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-26": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-27": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-28": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-29": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-30": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-10-31": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-01": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-02": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-03": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-04": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-05": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-06": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-07": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-08": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-09": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-10": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-11": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-12": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-13": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-14": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-15": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-16": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Karttika",
+    "vikramYear": 2083
+  },
+  "2026-11-17": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-18": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-19": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-20": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-21": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-22": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-23": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-24": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-25": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-26": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-27": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-28": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-29": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-11-30": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-01": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-02": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-03": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-04": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-05": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-06": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-07": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-08": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-09": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-10": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-11": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-12": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-13": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-14": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-15": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Margasira",
+    "vikramYear": 2083
+  },
+  "2026-12-16": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-17": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-18": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-19": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-20": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-21": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-22": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-23": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-24": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-25": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-26": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-27": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-28": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-29": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-30": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2026-12-31": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-01": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-02": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-03": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-04": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-05": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-06": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-07": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-08": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-09": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-10": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-11": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-12": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-13": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-14": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Pausa",
+    "vikramYear": 2083
+  },
+  "2027-01-15": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-16": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-17": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-18": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-19": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-20": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-21": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-22": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-23": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-24": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-25": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-26": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-27": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-28": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-29": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-30": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-01-31": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-01": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-02": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-03": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-04": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-05": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-06": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-07": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-08": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-09": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-10": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-11": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-12": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Magha",
+    "vikramYear": 2083
+  },
+  "2027-02-13": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-14": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-15": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-16": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-17": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-18": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-19": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-20": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-21": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-22": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-23": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-24": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-25": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-26": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-27": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-02-28": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-01": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-02": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-03": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-04": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-05": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-06": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-07": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-08": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-09": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-10": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-11": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-12": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-13": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-14": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Phalguna",
+    "vikramYear": 2083
+  },
+  "2027-03-15": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-16": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-17": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-18": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-19": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-20": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-21": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-22": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-23": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-24": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-25": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-26": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-27": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-28": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-29": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-30": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-03-31": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Chaitra",
+    "vikramYear": 2083
+  },
+  "2027-04-01": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-02": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-03": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-04": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-05": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-06": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-07": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-08": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-09": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-10": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-11": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-12": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-13": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Chaitra",
+    "vikramYear": 2084
+  },
+  "2027-04-14": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-15": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-16": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-17": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-18": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-19": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-20": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-21": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-22": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-23": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-24": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-25": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-26": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-27": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-28": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-29": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-04-30": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-01": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-02": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-03": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-04": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-05": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-06": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-07": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-08": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-09": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-10": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-11": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-12": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-13": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-14": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Baisakha",
+    "vikramYear": 2084
+  },
+  "2027-05-15": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-16": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-17": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-18": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-19": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-20": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-21": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-22": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-23": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-24": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-25": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-26": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-27": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-28": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-29": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-30": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-05-31": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-01": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-02": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-03": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-04": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-05": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-06": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Ardra",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-07": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-08": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-09": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-10": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-11": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-12": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-13": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-14": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-15": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Jyestha",
+    "vikramYear": 2084
+  },
+  "2027-06-16": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-17": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-18": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-19": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-20": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-21": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-22": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-23": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-24": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-25": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-26": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-27": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-28": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-29": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-06-30": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-01": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-02": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-03": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-04": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Punarvasu",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-05": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Pushya",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-06": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-07": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-08": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-09": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-10": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-11": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-12": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-13": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-14": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-15": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-16": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Asadha",
+    "vikramYear": 2084
+  },
+  "2027-07-17": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-18": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-19": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-20": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Sravana",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-21": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-22": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-23": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-24": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-25": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-26": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-27": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-28": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-29": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-30": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-07-31": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-01": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-02": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Ashlesha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-03": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Magha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-04": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-05": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-06": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-07": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-08": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-09": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-10": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-11": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-12": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-13": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-14": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-15": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-16": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Srabana",
+    "vikramYear": 2084
+  },
+  "2027-08-17": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Dhanishta",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-18": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Shatabhisha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-19": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-20": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-21": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-22": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-23": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-24": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-25": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-26": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-27": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-28": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-29": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-30": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-08-31": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-01": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-02": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-03": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-04": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-05": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-06": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-07": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-08": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-09": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-10": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-11": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-12": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-13": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-14": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-15": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-16": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Bhadraba",
+    "vikramYear": 2084
+  },
+  "2027-09-17": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Rebati",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-18": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-19": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-20": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-21": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-22": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-23": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-24": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-25": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-26": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-27": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-28": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-29": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-09-30": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Hasta",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-01": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Chitra",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-02": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Swati",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-03": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-04": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-05": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-06": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-07": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-08": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-09": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-10": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-11": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-12": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-13": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-14": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-15": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-16": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashwini",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-17": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Dwija",
+    "masa": "Aswina",
+    "vikramYear": 2084
+  },
+  "2027-10-18": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-19": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-20": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-21": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-22": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-23": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-24": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-25": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-26": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-27": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-28": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-29": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-30": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Vishakha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-10-31": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-01": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-02": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-03": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-04": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-05": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-06": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-07": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-08": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-09": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-10": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-11": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-12": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-13": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-14": {
+    "tithi": "Padyami",
+    "paksha": "Krishna",
+    "nakshatra": "Krittika",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-15": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Rohini",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-16": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Karttika",
+    "vikramYear": 2084
+  },
+  "2027-11-17": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-18": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-19": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-20": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-21": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-22": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-23": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-24": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-25": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-26": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-27": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-28": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Anuradha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-29": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Jyeshtha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-11-30": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Mula",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-01": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-02": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-03": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-04": {
+    "tithi": "Shasti",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-05": {
+    "tithi": "Sapthami",
+    "paksha": "Shukla",
+    "nakshatra": "Shatabhisha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-06": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Bhadrapada",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-07": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Bhadrapada",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-08": {
+    "tithi": "Dasami",
+    "paksha": "Shukla",
+    "nakshatra": "Rebati",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-09": {
+    "tithi": "Ekadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Ashwini",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-10": {
+    "tithi": "Dvadasi",
+    "paksha": "Shukla",
+    "nakshatra": "Dwija",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-11": {
+    "tithi": "Trayodasi",
+    "paksha": "Shukla",
+    "nakshatra": "Krittika",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-12": {
+    "tithi": "Chaturdasi",
+    "paksha": "Shukla",
+    "nakshatra": "Rohini",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-13": {
+    "tithi": "Punnami",
+    "paksha": "Shukla",
+    "nakshatra": "Mrigashirsha",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-14": {
+    "tithi": "Vidhiya",
+    "paksha": "Krishna",
+    "nakshatra": "Ardra",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-15": {
+    "tithi": "Thadiya",
+    "paksha": "Krishna",
+    "nakshatra": "Punarvasu",
+    "masa": "Margasira",
+    "vikramYear": 2084
+  },
+  "2027-12-16": {
+    "tithi": "Chaviti",
+    "paksha": "Krishna",
+    "nakshatra": "Pushya",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-17": {
+    "tithi": "Panchami",
+    "paksha": "Krishna",
+    "nakshatra": "Ashlesha",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-18": {
+    "tithi": "Shasti",
+    "paksha": "Krishna",
+    "nakshatra": "Magha",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-19": {
+    "tithi": "Sapthami",
+    "paksha": "Krishna",
+    "nakshatra": "Purva Phalguni",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-20": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "nakshatra": "Uttara Phalguni",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-21": {
+    "tithi": "Navami",
+    "paksha": "Krishna",
+    "nakshatra": "Hasta",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-22": {
+    "tithi": "Dasami",
+    "paksha": "Krishna",
+    "nakshatra": "Chitra",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-23": {
+    "tithi": "Ekadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Swati",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-24": {
+    "tithi": "Dvadasi",
+    "paksha": "Krishna",
+    "nakshatra": "Vishakha",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-25": {
+    "tithi": "Trayodasi",
+    "paksha": "Krishna",
+    "nakshatra": "Anuradha",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-26": {
+    "tithi": "Chaturdasi",
+    "paksha": "Krishna",
+    "nakshatra": "Jyeshtha",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-27": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "nakshatra": "Mula",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-28": {
+    "tithi": "Padyami",
+    "paksha": "Shukla",
+    "nakshatra": "Purva Ashadha",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-29": {
+    "tithi": "Vidhiya",
+    "paksha": "Shukla",
+    "nakshatra": "Uttara Ashadha",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-30": {
+    "tithi": "Thadiya",
+    "paksha": "Shukla",
+    "nakshatra": "Sravana",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  },
+  "2027-12-31": {
+    "tithi": "Chavithi",
+    "paksha": "Shukla",
+    "nakshatra": "Dhanishta",
+    "masa": "Pausa",
+    "vikramYear": 2084
+  }
+}
