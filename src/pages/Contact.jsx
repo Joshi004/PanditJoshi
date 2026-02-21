@@ -86,7 +86,9 @@ export default function Contact() {
 
       {/* Content */}
       <div className="max-w-lg lg:max-w-5xl mx-auto px-4 sm:px-6 py-14">
-        <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+
+        {/* ── Two-column grid (equal height on laptop) ── */}
+        <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-stretch">
 
           {/* ── Left column: Contact card + Languages ── */}
           <div className="flex flex-col gap-6">
@@ -187,9 +189,9 @@ export default function Contact() {
               </div>
             </AnimatedSection>
 
-            {/* Languages */}
-            <AnimatedSection variant="fadeUp" delay={0.1}>
-              <div className="bg-white border border-gold-300 rounded-2xl shadow-sm px-6 py-5">
+            {/* Languages — grows to fill remaining column height on laptop */}
+            <AnimatedSection variant="fadeUp" delay={0.1} className="lg:flex-1 lg:flex lg:flex-col">
+              <div className="bg-white border border-gold-300 rounded-2xl shadow-sm px-6 py-5 h-full flex flex-col">
                 <h3 className="font-heading text-base text-maroon-800 font-semibold mb-3">
                   Ceremonies Performed In
                 </h3>
@@ -216,34 +218,30 @@ export default function Contact() {
 
           </div>
 
-          {/* ── Right column: FAQ + Blessing ── */}
-          <div className="flex flex-col gap-6">
-
-            {/* FAQ */}
-            <AnimatedSection variant="fadeUp" delay={0.12}>
-              <FaqSection />
-            </AnimatedSection>
-
-            {/* Blessing Quote */}
-            <AnimatedSection variant="scaleIn" delay={0.15}>
-              <div className="bg-maroon-800 rounded-2xl px-6 py-7 text-center">
-                <motion.span
-                  className="text-gold-400 text-3xl font-heading block mb-2"
-                  animate={{ scale: [1, 1.06, 1] }}
-                  transition={{ duration: 3, repeat: Infinity, repeatDelay: 4, ease: 'easeInOut' }}
-                >
-                  ॐ
-                </motion.span>
-                <p className="font-heading text-lg text-ivory-50 italic">|| Radhe Radhe ||</p>
-                <p className="font-body text-xs text-ivory-300 mt-2 leading-relaxed">
-                  May your ceremonies bring peace, prosperity, and divine blessings.
-                </p>
-              </div>
-            </AnimatedSection>
-
-          </div>
+          {/* ── Right column: FAQ only (fills full column height) ── */}
+          <AnimatedSection variant="fadeUp" delay={0.12} className="lg:flex lg:flex-col">
+            <FaqSection className="h-full lg:overflow-y-auto" />
+          </AnimatedSection>
 
         </div>
+
+        {/* ── Full-width Blessing Quote footer ── */}
+        <AnimatedSection variant="scaleIn" delay={0.15} className="mt-6">
+          <div className="bg-maroon-800 rounded-2xl px-6 py-7 text-center">
+            <motion.span
+              className="text-gold-400 text-3xl font-heading block mb-2"
+              animate={{ scale: [1, 1.06, 1] }}
+              transition={{ duration: 3, repeat: Infinity, repeatDelay: 4, ease: 'easeInOut' }}
+            >
+              ॐ
+            </motion.span>
+            <p className="font-heading text-lg text-ivory-50 italic">|| Radhe Radhe ||</p>
+            <p className="font-body text-xs text-ivory-300 mt-2 leading-relaxed">
+              May your ceremonies bring peace, prosperity, and divine blessings.
+            </p>
+          </div>
+        </AnimatedSection>
+
       </div>
     </div>
   )

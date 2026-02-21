@@ -55,13 +55,13 @@ function FaqItem({ item, isOpen, onToggle }) {
   )
 }
 
-export default function FaqSection() {
+export default function FaqSection({ className = '' }) {
   const [openId, setOpenId] = useState(null)
 
   const toggle = (id) => setOpenId((prev) => (prev === id ? null : id))
 
   return (
-    <div className="bg-white border border-gold-300 rounded-2xl shadow-sm overflow-hidden">
+    <div className={`bg-white border border-gold-300 rounded-2xl shadow-sm overflow-hidden ${className}`}>
       {/* Header */}
       <div className="px-6 pt-5 pb-4 border-b border-gold-100">
         <h3 className="font-heading text-lg text-maroon-800 font-semibold mb-0.5">
