@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import PageTransition from './components/PageTransition'
+import WhatsAppButton from './components/WhatsAppButton'
 import Home from './pages/Home'
 import PujaSamagri from './pages/PujaSamagri'
 import Videos from './pages/Videos'
@@ -45,6 +46,7 @@ function AppLayout() {
         <AnimatedRoutes />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }

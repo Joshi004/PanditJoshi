@@ -106,7 +106,22 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-brown-700 mt-10 pt-6 text-center">
+        <div className="border-t border-brown-700 mt-10 pt-6 text-center space-y-2">
+          {/* Refer a Family nudge */}
+          <p className="font-body text-xs text-ivory-400 italic">
+            Know a family planning a ceremony?{' '}
+            <a
+              href={`https://wa.me/?text=${encodeURIComponent(
+                "I'd recommend Pandit Joshi for Hindu ceremonies in the Atlanta area. Check out his website: https://nareshjoshi.github.io/PanditJoshi/"
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#25D366] hover:text-green-400 transition-colors duration-200 not-italic font-semibold"
+              aria-label="Share Pandit Joshi's website via WhatsApp"
+            >
+              Share via WhatsApp
+            </a>
+          </p>
           <p className="font-body text-sm text-ivory-400">
             <span className="text-gold-400 italic">|| Radhe Radhe ||</span>
             {' · '}

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import AnimatedSection, { StaggerContainer, AnimatedItem } from '../components/AnimatedSection'
+import FaqSection from '../components/FaqSection'
 
 const languages = ['Hindi', 'Gujarati', 'Nepali', 'Punjabi', 'English']
 
@@ -33,6 +34,26 @@ function ChevronRightIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-gold-400 flex-shrink-0">
       <polyline points="9,18 15,12 9,6" />
+    </svg>
+  )
+}
+
+function WhatsAppIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 flex-shrink-0">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.848L0 24l6.335-1.661A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.68-.515-5.21-1.41l-.374-.22-3.76.986.987-3.652-.241-.386A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+    </svg>
+  )
+}
+
+function SmsIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 flex-shrink-0">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      <line x1="9" y1="10" x2="9" y2="10" />
+      <line x1="12" y1="10" x2="12" y2="10" />
+      <line x1="15" y1="10" x2="15" y2="10" />
     </svg>
   )
 }
@@ -107,6 +128,46 @@ export default function Contact() {
               <ChevronRightIcon />
             </motion.a>
 
+            {/* WhatsApp */}
+            <motion.a
+              href={`https://wa.me/14043863267?text=${encodeURIComponent('Namaste Panditji, I would like to schedule a ceremony.')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+              whileHover={{ x: 4 }}
+              transition={{ type: 'spring', stiffness: 400, damping: 25 }}
+            >
+              <span className="text-[#25D366] group-hover:opacity-80 transition-opacity">
+                <WhatsAppIcon />
+              </span>
+              <div className="flex-1">
+                <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">WhatsApp</p>
+                <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
+                  Chat on WhatsApp
+                </p>
+              </div>
+              <ChevronRightIcon />
+            </motion.a>
+
+            {/* SMS */}
+            <motion.a
+              href={`sms:14043863267?body=${encodeURIComponent('Namaste Panditji, I have a quick question: ')}`}
+              className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+              whileHover={{ x: 4 }}
+              transition={{ type: 'spring', stiffness: 400, damping: 25 }}
+            >
+              <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
+                <SmsIcon />
+              </span>
+              <div className="flex-1">
+                <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Text Message</p>
+                <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
+                  Send a Quick Query
+                </p>
+              </div>
+              <ChevronRightIcon />
+            </motion.a>
+
             {/* Location (non-clickable) */}
             <div className="flex items-center gap-4 px-6 py-5 text-maroon-800">
               <span className="text-saffron-500">
@@ -147,6 +208,11 @@ export default function Contact() {
               Ceremonies can be performed at your home, temple, or at the opening of a new office or venture.
             </p>
           </div>
+        </AnimatedSection>
+
+        {/* FAQ */}
+        <AnimatedSection variant="fadeUp" delay={0.12}>
+          <FaqSection />
         </AnimatedSection>
 
         {/* Blessing Quote */}
