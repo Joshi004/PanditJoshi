@@ -7,6 +7,9 @@ import { fileURLToPath } from 'url'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
+// /PanditJoshi/ for GitHub Pages (repo sub-path), / for Cloudflare (root).
+const base = process.env.VITE_BASE ?? '/'
+
 // Copies index.html to 404.html after build so GitHub Pages serves the SPA
 // shell for all unknown paths (direct navigation / refresh on deep routes).
 function spa404Plugin() {
@@ -35,8 +38,8 @@ export default defineConfig({
         theme_color: '#800020',
         background_color: '#FFFAF3',
         display: 'standalone',
-        start_url: '/PanditJoshi/',
-        scope: '/PanditJoshi/',
+        start_url: base,
+        scope: base,
         icons: [
           {
             src: 'pwa-192.png',
@@ -54,8 +57,8 @@ export default defineConfig({
       workbox: {
         // Only precache small JS/CSS/HTML assets; large images load from network
         globPatterns: ['**/*.{js,css,html,svg,woff2}'],
-        navigateFallback: '/PanditJoshi/index.html',
-        navigateFallbackDenylist: [/^\/PanditJoshi\/api\//],
+        navigateFallback: `${base}index.html`,
+        navigateFallbackDenylist: [new RegExp('^' + base.replace(/\//g, '\\/') + 'api\\/')],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -78,5 +81,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/PanditJoshi/',
+  base,
 })

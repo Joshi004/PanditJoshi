@@ -35,6 +35,8 @@ jobs:
       - run: npm run generate:panchang
 
       - run: npm run build
+        env:
+          VITE_BASE: /PanditJoshi/
 
       - uses: actions/configure-pages@v4
 
