@@ -83,14 +83,6 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <motion.p
-                className="font-body text-sm italic text-saffron-500 mt-5 tracking-wider"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.6 }}
-              >
-                || Radhe Radhe ||
-              </motion.p>
             </motion.div>
 
             {/* Text */}
