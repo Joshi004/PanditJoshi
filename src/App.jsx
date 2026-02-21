@@ -57,7 +57,7 @@ function AppLayout() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/PanditJoshi">
+    <BrowserRouter basename={(import.meta.env.VITE_BASE ?? '/').replace(/\/$/, '')}>
       <AppLayout />
     </BrowserRouter>
   )
