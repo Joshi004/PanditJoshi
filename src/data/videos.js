@@ -16,7 +16,12 @@ export const videos = [
   },
   {
     id: 'yknbb2IO230',
-    title: 'Devotional Kirtan',
-    description: 'A soulful kirtan session led by Pandit Joshi.',
+    title: 'Sundar Kand – Part 3',
+    description: 'Part 3 of the Sunderkand recitation from the Ramayana, performed by Pandit Joshi.',
+  },
+  {
+    id: 'mAPSdLDO6j8',
+    title: 'Sundar Kaand – Part 4',
+    description: 'Part 4 of the Sunderkand recitation from the Ramayana, performed by Pandit Joshi.',
   },
 ]
