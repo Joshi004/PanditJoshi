@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-export function FeaturedBlogCard({ post }) {
+export function FeaturedBlogCard({ post, celebrateDate }) {
   return (
     <article className="relative bg-white border border-gold-300 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 group">
       {/* Decorative gradient bar */}
@@ -11,7 +11,11 @@ export function FeaturedBlogCard({ post }) {
           <span className="font-body text-xs font-bold uppercase tracking-widest text-saffron-500 bg-saffron-50 border border-saffron-200 px-3 py-1 rounded-full">
             Featured
           </span>
-          <span className="font-body text-xs text-brown-600">{post.date}</span>
+          {celebrateDate && (
+            <span className="font-body text-xs text-brown-600">
+              Celebrate on {celebrateDate}
+            </span>
+          )}
         </div>
         {/* Title */}
         <h2 className="font-heading text-2xl md:text-3xl text-maroon-800 font-bold leading-tight mb-4 group-hover:text-saffron-600 transition-colors duration-200">
@@ -38,16 +42,17 @@ export function FeaturedBlogCard({ post }) {
   )
 }
 
-export default function BlogCard({ post }) {
+export default function BlogCard({ post, celebrateDate }) {
   return (
     <article className="bg-white border border-gold-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200 group flex flex-col">
       {/* Top accent bar */}
       <div className="h-1 w-full bg-gold-300 group-hover:bg-saffron-400 transition-colors duration-200" />
       <div className="p-6 flex flex-col flex-1">
-        {/* Date */}
-        <span className="font-body text-xs uppercase tracking-widest text-brown-600 mb-2">
-          {post.date}
-        </span>
+        {celebrateDate && (
+          <span className="font-body text-xs uppercase tracking-widest text-brown-600 mb-2">
+            Celebrate on {celebrateDate}
+          </span>
+        )}
         {/* Title */}
         <h2 className="font-heading text-xl text-maroon-800 font-semibold leading-snug mb-3 group-hover:text-saffron-600 transition-colors duration-200">
           {post.title}

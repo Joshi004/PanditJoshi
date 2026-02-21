@@ -2,12 +2,16 @@ import { useParams, Link, Navigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import AnimatedSection from '../components/AnimatedSection'
 import { blogPosts } from '../data/blogPosts'
+import { getFestivalDates } from '../utils/festivalScheduler'
 
 export default function BlogPost() {
   const { slug } = useParams()
   const post = blogPosts.find((p) => p.slug === slug)
 
   if (!post) return <Navigate to="/blog" replace />
+
+  const festivalDates = getFestivalDates()
+  const celebrateDate = festivalDates.get(post.slug)
 
   return (
     <div className="bg-ivory-50 min-h-screen">
@@ -23,9 +27,11 @@ export default function BlogPost() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         >
           <span className="text-5xl block mb-3">{post.coverEmoji}</span>
-          <p className="font-body text-saffron-300 uppercase tracking-widest text-xs mb-2">
-            {post.date}
-          </p>
+          {celebrateDate && (
+            <p className="font-body text-saffron-300 uppercase tracking-widest text-xs mb-2">
+              Celebrate on {celebrateDate}
+            </p>
+          )}
           <h1 className="font-heading text-2xl md:text-4xl text-white font-bold max-w-3xl mx-auto px-4 leading-snug">
             {post.title}
           </h1>

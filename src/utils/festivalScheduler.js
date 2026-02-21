@@ -105,3 +105,33 @@ export function getActiveFestivals(daysBefore = 30, daysAfter = 7) {
 export function getActiveFestival(daysBefore = 30, daysAfter = 7) {
   return getActiveFestivals(daysBefore, daysAfter)[0] ?? null
 }
+
+/**
+ * Returns a Map from articleSlug -> formatted date string ("Month Day, Year")
+ * for the next upcoming occurrence of each festival that has an article.
+ * Articles without a linked festival will not appear in the map.
+ *
+ * @returns {Map<string, string>}
+ */
+export function getFestivalDates() {
+  const all = buildFestivalCalendar()
+  const dateMap = new Map()
+
+  // buildFestivalCalendar() is sorted by date ascending, so the first
+  // upcoming occurrence (daysUntil >= 0) we encounter per slug is the closest one.
+  for (const f of all) {
+    if (!f.articleSlug || f.daysUntil < 0) continue
+    if (!dateMap.has(f.articleSlug)) {
+      dateMap.set(f.articleSlug, f.date)
+    }
+  }
+
+  const formatted = new Map()
+  for (const [slug, date] of dateMap) {
+    formatted.set(
+      slug,
+      date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+    )
+  }
+  return formatted
+}

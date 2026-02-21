@@ -2,10 +2,11 @@ import { motion } from 'framer-motion'
 import BlogCard, { FeaturedBlogCard } from '../components/BlogCard'
 import AnimatedSection, { StaggerContainer, AnimatedItem } from '../components/AnimatedSection'
 import { blogPosts } from '../data/blogPosts'
-import { getActiveFestivals } from '../utils/festivalScheduler'
+import { getActiveFestivals, getFestivalDates } from '../utils/festivalScheduler'
 
 export default function Blog() {
   const activeFestivals = getActiveFestivals()
+  const festivalDates = getFestivalDates()
 
   let featuredPosts = []
   let rest = [...blogPosts]
@@ -16,10 +17,6 @@ export default function Blog() {
       featuredPosts.push(rest[idx])
       rest = rest.filter((_, i) => i !== idx)
     }
-  }
-
-  if (featuredPosts.length === 0) {
-    featuredPosts = [rest.shift()]
   }
 
   return (
@@ -51,7 +48,7 @@ export default function Blog() {
         {/* Featured Posts */}
         {featuredPosts.map((post) => (
           <AnimatedSection key={post.slug} variant="fadeUp">
-            <FeaturedBlogCard post={post} />
+            <FeaturedBlogCard post={post} celebrateDate={festivalDates.get(post.slug)} />
           </AnimatedSection>
         ))}
 
@@ -64,7 +61,7 @@ export default function Blog() {
           >
             {rest.map((post) => (
               <AnimatedItem key={post.slug} variant="fadeUp">
-                <BlogCard post={post} />
+                <BlogCard post={post} celebrateDate={festivalDates.get(post.slug)} />
               </AnimatedItem>
             ))}
           </StaggerContainer>
