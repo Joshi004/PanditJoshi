@@ -7,6 +7,7 @@ import PageTransition from './components/PageTransition'
 import WhatsAppButton from './components/WhatsAppButton'
 import Home from './pages/Home'
 import Services from './pages/Services'
+import ServiceDetail from './pages/ServiceDetail'
 import PujaSamagri from './pages/PujaSamagri'
 import Videos from './pages/Videos'
 import Blog from './pages/Blog'
@@ -29,6 +30,7 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<PageTransition><Home /></PageTransition>} />
         <Route path="/services" element={<PageTransition><Services /></PageTransition>} />
+        <Route path="/services/:id" element={<PageTransition><ServiceDetail /></PageTransition>} />
         <Route path="/puja-samagri" element={<PageTransition><PujaSamagri /></PageTransition>} />
         <Route path="/videos" element={<PageTransition><Videos /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><Blog /></PageTransition>} />

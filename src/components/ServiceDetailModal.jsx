@@ -18,11 +18,11 @@ function CloseIcon() {
   )
 }
 
-function BookIcon() {
+function ExploreIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+      <circle cx="12" cy="12" r="10" />
+      <polygon points="10 8 16 12 10 16 10 8" />
     </svg>
   )
 }
@@ -190,16 +190,14 @@ export default function ServiceDetailModal({ service, onClose }) {
 
           {/* CTA footer */}
           <div className="flex-shrink-0 px-6 py-4 border-t border-gold-200 bg-white flex flex-col sm:flex-row gap-3">
-            {article && (
-              <Link
-                to={`/blog/${article.slug}`}
-                onClick={onClose}
-                className="flex-1 flex items-center justify-center gap-2 bg-maroon-800 hover:bg-maroon-700 text-white font-body font-semibold text-sm px-5 py-3 rounded-xl transition-colors duration-200"
-              >
-                <BookIcon />
-                Read Full Article
-              </Link>
-            )}
+            <Link
+              to={`/services/${service.id}`}
+              onClick={onClose}
+              className="flex-1 flex items-center justify-center gap-2 bg-maroon-800 hover:bg-maroon-700 text-white font-body font-semibold text-sm px-5 py-3 rounded-xl transition-colors duration-200"
+            >
+              <ExploreIcon />
+              Explore Service
+            </Link>
             {samagriEntry && (
               <Link
                 to={`/puja-samagri?samagri=${samagriEntry.id}`}
@@ -208,15 +206,6 @@ export default function ServiceDetailModal({ service, onClose }) {
               >
                 <ListIcon />
                 View Samagri List
-              </Link>
-            )}
-            {!article && !samagriEntry && (
-              <Link
-                to="/contact"
-                onClick={onClose}
-                className="flex-1 flex items-center justify-center gap-2 bg-maroon-800 hover:bg-maroon-700 text-white font-body font-semibold text-sm px-5 py-3 rounded-xl transition-colors duration-200"
-              >
-                Contact Pandit Joshi
               </Link>
             )}
           </div>
