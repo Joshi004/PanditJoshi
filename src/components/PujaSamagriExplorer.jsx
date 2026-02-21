@@ -1,4 +1,5 @@
 import { useState, useCallback, useMemo, useRef, useEffect } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import ServiceIcon from './ServiceIcon'
 import SamagriItemCard from './SamagriItemCard'
@@ -55,7 +56,13 @@ function CheckIcon() {
 }
 
 export default function PujaSamagriExplorer() {
-  const [selectedPujaId, setSelectedPujaId] = useState(pujaSamagriList[0].id)
+  const [searchParams] = useSearchParams()
+  const initialId = (() => {
+    const param = searchParams.get('samagri')
+    if (param && pujaSamagriList.some((p) => p.id === param)) return param
+    return pujaSamagriList[0].id
+  })()
+  const [selectedPujaId, setSelectedPujaId] = useState(initialId)
   const [preparationMode, setPreparationMode] = useState(false)
   const [checkedItems, setCheckedItems] = useState(loadChecks)
   const [copyFeedback, setCopyFeedback] = useState(false)

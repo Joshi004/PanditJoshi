@@ -1,9 +1,13 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import ServiceCard from '../components/ServiceCard'
+import ServiceDetailModal from '../components/ServiceDetailModal'
 import ServiceIcon from '../components/ServiceIcon'
 import AnimatedSection, { StaggerContainer, AnimatedItem } from '../components/AnimatedSection'
 import { services } from '../data/services'
+
+const featuredServices = services.filter((s) => s.featured)
 
 const timeline = [
   { year: '1993', event: 'First international visit to London, UK for Vishwa Mangal Mahotsava, accompanied by Swami Chidananda Ji and Ramesh Bhai Ojha Ji from Porbandar.' },
@@ -49,6 +53,8 @@ function VeenaIcon() {
 }
 
 export default function Home() {
+  const [selectedService, setSelectedService] = useState(null)
+
   return (
     <>
       {/* ── SECTION A: Hero ─────────────────────────────────────── */}
@@ -117,7 +123,7 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                 <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
-                  <Link to="/puja-samagri" className="btn-primary">
+                  <Link to="/services" className="btn-primary">
                     View Services
                   </Link>
                 </motion.div>
@@ -226,21 +232,39 @@ export default function Home() {
             staggerDelay={0.07}
             delayChildren={0.1}
           >
-            {services.map((service) => (
+            {featuredServices.map((service) => (
               <AnimatedItem key={service.id} variant="fadeUp">
-                <ServiceCard service={service} />
+                <ServiceCard
+                  service={service}
+                  onClick={() => setSelectedService(service)}
+                />
               </AnimatedItem>
             ))}
           </StaggerContainer>
           <AnimatedSection variant="fadeUp" delay={0.2} className="text-center">
-            <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} className="inline-block">
-              <Link to="/puja-samagri" className="btn-primary">
-                View Puja Samagri Lists →
-              </Link>
-            </motion.div>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} className="inline-block">
+                <Link to="/services" className="btn-primary">
+                  View All Services →
+                </Link>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }} className="inline-block">
+                <Link to="/puja-samagri" className="btn-outline">
+                  Puja Samagri Lists
+                </Link>
+              </motion.div>
+            </div>
           </AnimatedSection>
         </div>
       </section>
+
+      {/* Service detail modal */}
+      {selectedService && (
+        <ServiceDetailModal
+          service={selectedService}
+          onClose={() => setSelectedService(null)}
+        />
+      )}
 
       {/* ── SECTION D: Languages ──────────────────────────────── */}
       <section className="bg-maroon-800 py-12">

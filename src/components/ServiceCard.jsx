@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion'
 import ServiceIcon from './ServiceIcon'
 
-export default function ServiceCard({ service }) {
+export default function ServiceCard({ service, onClick }) {
   return (
     <motion.div
-      className="group relative bg-ivory-50 border border-gold-300 rounded-xl p-6 shadow-sm flex flex-col items-center text-center gap-3 overflow-hidden cursor-default"
+      onClick={onClick}
+      className={`group relative bg-ivory-50 border border-gold-300 rounded-xl p-6 shadow-sm flex flex-col items-center text-center gap-3 overflow-hidden ${onClick ? 'cursor-pointer' : 'cursor-default'}`}
       whileHover={{ y: -6, boxShadow: '0 12px 32px rgba(197,150,46,0.18)' }}
       transition={{ type: 'spring', stiffness: 300, damping: 22 }}
     >
