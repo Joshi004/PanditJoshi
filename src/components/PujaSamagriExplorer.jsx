@@ -114,7 +114,7 @@ export default function PujaSamagriExplorer() {
   }, [selectedPujaId])
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       {/* ═══════ Puja Selector ═══════ */}
       <div className="mb-8">
         <div className="flex gap-3 overflow-x-auto pb-4 scrollbar-hide snap-x snap-mandatory">
@@ -265,7 +265,7 @@ export default function PujaSamagriExplorer() {
                 <div className="h-px flex-1 bg-gradient-to-l from-gold-300 to-transparent" />
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {group.items.map((item, idx) => (
                   <motion.div
                     key={item.name}

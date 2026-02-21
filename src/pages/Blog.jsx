@@ -31,7 +31,7 @@ export default function Blog() {
         </motion.div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
         {/* Featured Post */}
         {featured && (
           <AnimatedSection variant="fadeUp">
@@ -42,7 +42,7 @@ export default function Blog() {
         {/* Remaining Posts Grid */}
         {rest.length > 0 && (
           <StaggerContainer
-            className="grid grid-cols-1 md:grid-cols-2 gap-6"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
             staggerDelay={0.1}
             delayChildren={0.1}
           >

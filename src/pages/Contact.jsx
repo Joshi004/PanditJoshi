@@ -85,153 +85,165 @@ export default function Contact() {
       </div>
 
       {/* Content */}
-      <div className="max-w-lg mx-auto px-4 sm:px-6 py-14 flex flex-col gap-6">
+      <div className="max-w-lg lg:max-w-5xl mx-auto px-4 sm:px-6 py-14">
+        <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
 
-        {/* Contact Action Card */}
-        <AnimatedSection variant="fadeUp" delay={0.05}>
-          <div className="bg-white border border-gold-300 rounded-2xl shadow-sm overflow-hidden">
-            {/* Email */}
-            <motion.a
-              href="mailto:panditjoshiji@gmail.com"
-              className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
-              whileHover={{ x: 4 }}
-              transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-            >
-              <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
-                <EnvelopeIcon />
-              </span>
-              <div className="flex-1 min-w-0">
-                <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Email</p>
-                <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors truncate">
-                  panditjoshiji@gmail.com
-                </p>
-              </div>
-              <ChevronRightIcon />
-            </motion.a>
+          {/* ── Left column: Contact card + Languages ── */}
+          <div className="flex flex-col gap-6">
 
-            {/* Phone */}
-            <motion.a
-              href="tel:4043863267"
-              className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
-              whileHover={{ x: 4 }}
-              transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-            >
-              <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
-                <PhoneIcon />
-              </span>
-              <div className="flex-1">
-                <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Phone</p>
-                <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
-                  404-386-3267
-                </p>
-              </div>
-              <ChevronRightIcon />
-            </motion.a>
-
-            {/* WhatsApp */}
-            <motion.a
-              href={`https://wa.me/14043863267?text=${encodeURIComponent('Namaste Panditji, I would like to schedule a ceremony.')}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
-              whileHover={{ x: 4 }}
-              transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-            >
-              <span className="text-[#25D366] group-hover:opacity-80 transition-opacity">
-                <WhatsAppIcon />
-              </span>
-              <div className="flex-1">
-                <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">WhatsApp</p>
-                <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
-                  Chat on WhatsApp
-                </p>
-              </div>
-              <ChevronRightIcon />
-            </motion.a>
-
-            {/* SMS */}
-            <motion.a
-              href={`sms:14043863267?body=${encodeURIComponent('Namaste Panditji, I have a quick question: ')}`}
-              className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
-              whileHover={{ x: 4 }}
-              transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-            >
-              <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
-                <SmsIcon />
-              </span>
-              <div className="flex-1">
-                <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Text Message</p>
-                <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
-                  Send a Quick Query
-                </p>
-              </div>
-              <ChevronRightIcon />
-            </motion.a>
-
-            {/* Location (non-clickable) */}
-            <div className="flex items-center gap-4 px-6 py-5 text-maroon-800">
-              <span className="text-saffron-500">
-                <MapPinIcon />
-              </span>
-              <div className="flex-1">
-                <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Service Area</p>
-                <p className="font-body text-base font-semibold text-maroon-800">
-                  Atlanta, GA &amp; surrounding areas
-                </p>
-              </div>
-            </div>
-          </div>
-        </AnimatedSection>
-
-        {/* Languages */}
-        <AnimatedSection variant="fadeUp" delay={0.1}>
-          <div className="bg-white border border-gold-300 rounded-2xl shadow-sm px-6 py-5">
-            <h3 className="font-heading text-base text-maroon-800 font-semibold mb-3">
-              Ceremonies Performed In
-            </h3>
-            <StaggerContainer className="flex flex-wrap gap-2" staggerDelay={0.07} delayChildren={0.05}>
-              {languages.map((lang) => (
-                <motion.span
-                  key={lang}
-                  className="font-body text-xs font-semibold text-maroon-800 bg-ivory-100 border border-gold-300 rounded-full px-3 py-1"
-                  variants={{
-                    hidden: { opacity: 0, scale: 0.8 },
-                    visible: { opacity: 1, scale: 1 },
-                  }}
-                  whileHover={{ scale: 1.08 }}
+            {/* Contact Action Card */}
+            <AnimatedSection variant="fadeUp" delay={0.05}>
+              <div className="bg-white border border-gold-300 rounded-2xl shadow-sm overflow-hidden">
+                {/* Email */}
+                <motion.a
+                  href="mailto:panditjoshiji@gmail.com"
+                  className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+                  whileHover={{ x: 4 }}
+                  transition={{ type: 'spring', stiffness: 400, damping: 25 }}
                 >
-                  {lang}
+                  <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
+                    <EnvelopeIcon />
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Email</p>
+                    <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors truncate">
+                      panditjoshiji@gmail.com
+                    </p>
+                  </div>
+                  <ChevronRightIcon />
+                </motion.a>
+
+                {/* Phone */}
+                <motion.a
+                  href="tel:4043863267"
+                  className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+                  whileHover={{ x: 4 }}
+                  transition={{ type: 'spring', stiffness: 400, damping: 25 }}
+                >
+                  <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
+                    <PhoneIcon />
+                  </span>
+                  <div className="flex-1">
+                    <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Phone</p>
+                    <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
+                      404-386-3267
+                    </p>
+                  </div>
+                  <ChevronRightIcon />
+                </motion.a>
+
+                {/* WhatsApp */}
+                <motion.a
+                  href={`https://wa.me/14043863267?text=${encodeURIComponent('Namaste Panditji, I would like to schedule a ceremony.')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+                  whileHover={{ x: 4 }}
+                  transition={{ type: 'spring', stiffness: 400, damping: 25 }}
+                >
+                  <span className="text-[#25D366] group-hover:opacity-80 transition-opacity">
+                    <WhatsAppIcon />
+                  </span>
+                  <div className="flex-1">
+                    <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">WhatsApp</p>
+                    <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
+                      Chat on WhatsApp
+                    </p>
+                  </div>
+                  <ChevronRightIcon />
+                </motion.a>
+
+                {/* SMS */}
+                <motion.a
+                  href={`sms:14043863267?body=${encodeURIComponent('Namaste Panditji, I have a quick question: ')}`}
+                  className="flex items-center gap-4 px-6 py-5 text-maroon-800 hover:bg-saffron-50 transition-colors duration-200 group border-b border-gold-200"
+                  whileHover={{ x: 4 }}
+                  transition={{ type: 'spring', stiffness: 400, damping: 25 }}
+                >
+                  <span className="text-saffron-500 group-hover:text-saffron-600 transition-colors">
+                    <SmsIcon />
+                  </span>
+                  <div className="flex-1">
+                    <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Text Message</p>
+                    <p className="font-body text-base font-semibold text-maroon-800 group-hover:text-saffron-600 transition-colors">
+                      Send a Quick Query
+                    </p>
+                  </div>
+                  <ChevronRightIcon />
+                </motion.a>
+
+                {/* Location (non-clickable) */}
+                <div className="flex items-center gap-4 px-6 py-5 text-maroon-800">
+                  <span className="text-saffron-500">
+                    <MapPinIcon />
+                  </span>
+                  <div className="flex-1">
+                    <p className="font-body text-xs uppercase tracking-widest text-brown-600 mb-0.5">Service Area</p>
+                    <p className="font-body text-base font-semibold text-maroon-800">
+                      Atlanta, GA &amp; surrounding areas
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AnimatedSection>
+
+            {/* Languages */}
+            <AnimatedSection variant="fadeUp" delay={0.1}>
+              <div className="bg-white border border-gold-300 rounded-2xl shadow-sm px-6 py-5">
+                <h3 className="font-heading text-base text-maroon-800 font-semibold mb-3">
+                  Ceremonies Performed In
+                </h3>
+                <StaggerContainer className="flex flex-wrap gap-2" staggerDelay={0.07} delayChildren={0.05}>
+                  {languages.map((lang) => (
+                    <motion.span
+                      key={lang}
+                      className="font-body text-xs font-semibold text-maroon-800 bg-ivory-100 border border-gold-300 rounded-full px-3 py-1"
+                      variants={{
+                        hidden: { opacity: 0, scale: 0.8 },
+                        visible: { opacity: 1, scale: 1 },
+                      }}
+                      whileHover={{ scale: 1.08 }}
+                    >
+                      {lang}
+                    </motion.span>
+                  ))}
+                </StaggerContainer>
+                <p className="font-body text-xs text-brown-600 mt-4 leading-relaxed">
+                  Ceremonies can be performed at your home, temple, or at the opening of a new office or venture.
+                </p>
+              </div>
+            </AnimatedSection>
+
+          </div>
+
+          {/* ── Right column: FAQ + Blessing ── */}
+          <div className="flex flex-col gap-6">
+
+            {/* FAQ */}
+            <AnimatedSection variant="fadeUp" delay={0.12}>
+              <FaqSection />
+            </AnimatedSection>
+
+            {/* Blessing Quote */}
+            <AnimatedSection variant="scaleIn" delay={0.15}>
+              <div className="bg-maroon-800 rounded-2xl px-6 py-7 text-center">
+                <motion.span
+                  className="text-gold-400 text-3xl font-heading block mb-2"
+                  animate={{ scale: [1, 1.06, 1] }}
+                  transition={{ duration: 3, repeat: Infinity, repeatDelay: 4, ease: 'easeInOut' }}
+                >
+                  ॐ
                 </motion.span>
-              ))}
-            </StaggerContainer>
-            <p className="font-body text-xs text-brown-600 mt-4 leading-relaxed">
-              Ceremonies can be performed at your home, temple, or at the opening of a new office or venture.
-            </p>
+                <p className="font-heading text-lg text-ivory-50 italic">|| Radhe Radhe ||</p>
+                <p className="font-body text-xs text-ivory-300 mt-2 leading-relaxed">
+                  May your ceremonies bring peace, prosperity, and divine blessings.
+                </p>
+              </div>
+            </AnimatedSection>
+
           </div>
-        </AnimatedSection>
 
-        {/* FAQ */}
-        <AnimatedSection variant="fadeUp" delay={0.12}>
-          <FaqSection />
-        </AnimatedSection>
-
-        {/* Blessing Quote */}
-        <AnimatedSection variant="scaleIn" delay={0.15}>
-          <div className="bg-maroon-800 rounded-2xl px-6 py-7 text-center">
-            <motion.span
-              className="text-gold-400 text-3xl font-heading block mb-2"
-              animate={{ scale: [1, 1.06, 1] }}
-              transition={{ duration: 3, repeat: Infinity, repeatDelay: 4, ease: 'easeInOut' }}
-            >
-              ॐ
-            </motion.span>
-            <p className="font-heading text-lg text-ivory-50 italic">|| Radhe Radhe ||</p>
-            <p className="font-body text-xs text-ivory-300 mt-2 leading-relaxed">
-              May your ceremonies bring peace, prosperity, and divine blessings.
-            </p>
-          </div>
-        </AnimatedSection>
-
+        </div>
       </div>
     </div>
   )

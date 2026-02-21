@@ -134,7 +134,7 @@ export default function Home() {
 
       {/* ── SECTION B: About / Journey ─────────────────────────── */}
       <section className="bg-saffron-50 py-16">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection variant="fadeUp">
             <h2 className="section-title">About Pandit Joshi</h2>
             <div className="gold-divider"></div>
@@ -244,7 +244,7 @@ export default function Home() {
 
       {/* ── SECTION D: Languages ──────────────────────────────── */}
       <section className="bg-maroon-800 py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection variant="fadeUp">
             <h2 className="font-heading text-2xl md:text-3xl text-gold-400 mb-6">
               Ceremonies Performed in Multiple Languages
@@ -287,7 +287,7 @@ export default function Home() {
           <span className="font-heading text-white opacity-5 text-[18rem] leading-none">ॐ</span>
         </div>
 
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <AnimatedSection variant="scaleIn">
             <h2 className="font-heading text-3xl md:text-4xl text-white font-bold mb-4">
               Looking for a Pandit for your religious ceremony?

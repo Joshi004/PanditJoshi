@@ -36,7 +36,7 @@ export default function PujaSamagri() {
       <PujaSamagriExplorer />
 
       {/* Contact nudge */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         <AnimatedSection variant="fadeUp" delay={0.1}>
           <div className="text-center bg-white border border-gold-200 rounded-2xl shadow-sm p-8">
             <motion.div
