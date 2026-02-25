@@ -1,10 +1,12 @@
+const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 export const SAMAGRI_IMAGES = {
-  'Chowki (Worship Platform)': { src: '/samagri/chowki.webp', note: 'At least 1.5 feet × 1.5 feet' },
-  'Dry Coconut (Kopra / Gola)': { src: '/samagri/dry-coconut.webp' },
-  'Kalash (Sacred Vessel)': { src: '/samagri/kalash.webp' },
-  'Paan Patta (Betel Leaves)': { src: '/samagri/paan-patta.webp' },
-  'Thali (Steel Plate)': { src: '/samagri/pooja-thali.webp' },
-  'Supari (Betel Nut)': { src: '/samagri/supari.webp' },
+  'Chowki (Worship Platform)': { src: `${base}/samagri/chowki.webp`, note: 'At least 1.5 feet × 1.5 feet' },
+  'Dry Coconut (Kopra / Gola)': { src: `${base}/samagri/dry-coconut.webp` },
+  'Kalash (Sacred Vessel)':     { src: `${base}/samagri/kalash.webp` },
+  'Paan Patta (Betel Leaves)':  { src: `${base}/samagri/paan-patta.webp` },
+  'Thali (Steel Plate)':        { src: `${base}/samagri/pooja-thali.webp` },
+  'Supari (Betel Nut)':         { src: `${base}/samagri/supari.webp` },
 }
 
 export const CATEGORIES = {
