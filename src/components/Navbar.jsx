@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
+import LanguageSwitcher from './LanguageSwitcher'
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -70,6 +71,7 @@ export default function Navbar() {
                 {link.label}
               </NavLink>
             ))}
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile hamburger */}
@@ -158,7 +160,8 @@ export default function Navbar() {
                   </NavLink>
                 </motion.div>
               ))}
-              <div className="pt-3 text-center">
+              <div className="pt-3 flex items-center justify-between px-2">
+                <LanguageSwitcher />
                 <span className="font-body text-xs italic text-gold-500 tracking-wider">|| Radhe Radhe ||</span>
               </div>
             </motion.div>

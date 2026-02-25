@@ -80,6 +80,18 @@
   animation: float 3s ease-in-out infinite;
 }
 
+/* ── Google Translate: suppress default banner/toolbar UI ── */
+.goog-te-banner-frame,
+.goog-te-balloon-frame,
+.skiptranslate,
+#goog-gt-tt {
+  display: none !important;
+}
+/* Prevent Google Translate from pushing body down by 40px */
+body {
+  top: 0 !important;
+}
+
 /* Hide scrollbar for horizontal scroll containers */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
