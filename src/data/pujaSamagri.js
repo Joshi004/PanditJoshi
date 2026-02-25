@@ -1,3 +1,12 @@
+export const SAMAGRI_IMAGES = {
+  'Chowki (Worship Platform)': { src: '/samagri/chowki.webp', note: 'At least 1.5 feet × 1.5 feet' },
+  'Dry Coconut (Kopra / Gola)': { src: '/samagri/dry-coconut.webp' },
+  'Kalash (Sacred Vessel)': { src: '/samagri/kalash.webp' },
+  'Paan Patta (Betel Leaves)': { src: '/samagri/paan-patta.webp' },
+  'Thali (Steel Plate)': { src: '/samagri/pooja-thali.webp' },
+  'Supari (Betel Nut)': { src: '/samagri/supari.webp' },
+}
+
 export const CATEGORIES = {
   powders: { label: 'Sacred Powders & Pastes', order: 1 },
   liquids: { label: 'Sacred Liquids', order: 2 },
@@ -17,6 +26,7 @@ export const pujaSamagriList = [
     icon: 'annaprashan',
     description: 'Sacred ceremony marking a baby\'s first taste of solid food, invoking divine blessings for nourishment and health.',
     items: [
+      { name: 'Ganesh Ji Idol (small)', quantity: '1', category: 'special' },
       { name: 'Supari (Betel Nut)', quantity: '11', category: 'grains' },
       { name: 'Coconut', quantity: '1', category: 'food' },
       { name: 'Flowers', quantity: null, category: 'flowers' },
@@ -52,6 +62,7 @@ export const pujaSamagriList = [
     icon: 'namakaran',
     description: 'Auspicious Vedic ceremony to formally bestow a sacred name upon a newborn child.',
     items: [
+      { name: 'Ganesh Ji Idol (small)', quantity: '1', category: 'special' },
       { name: 'Supari (Betel Nut)', quantity: '11', category: 'grains' },
       { name: 'Coconut', quantity: '1', category: 'food' },
       { name: 'Dry Coconut (Kopra / Gola)', quantity: '1', category: 'food' },
@@ -90,6 +101,7 @@ export const pujaSamagriList = [
     icon: 'chudakaran',
     description: 'Traditional first haircut ceremony purifying the child and marking an important milestone in early life.',
     items: [
+      { name: 'Ganesh Ji Idol (small)', quantity: '1', category: 'special' },
       { name: 'Supari (Betel Nut)', quantity: '11', category: 'grains' },
       { name: 'Coconut', quantity: '1', category: 'food' },
       { name: 'Dry Coconut (Kopra / Gola)', quantity: '1', category: 'food' },
@@ -163,6 +175,7 @@ export const pujaSamagriList = [
     icon: 'janeu',
     description: 'Sacred thread ceremony (Janeu) marking a boy\'s initiation into Vedic learning and spiritual life.',
     items: [
+      { name: 'Ganesh Ji Idol (small)', quantity: '1', category: 'special' },
       { name: 'Supari (Betel Nut)', quantity: '11', category: 'grains' },
       { name: 'Coconut', quantity: '1', category: 'food' },
       { name: 'Dry Coconut (Kopra / Gola)', quantity: '1', category: 'food' },
@@ -225,6 +238,7 @@ export const pujaSamagriList = [
       { name: 'Dry Coconut (Kopra / Gola)', quantity: '1', category: 'food' },
       { name: 'Match Box', quantity: '1', category: 'incense' },
       { name: 'Paan Patta (Betel Leaves)', quantity: '11', category: 'flowers' },
+      { name: 'Mango Leaf (Aam Patta)', quantity: '5', category: 'flowers' },
       { name: 'Dry Fruits', quantity: null, category: 'food' },
       { name: 'Puja Samagri Packet', quantity: '1', category: 'special' },
       { name: 'Varmala (Wedding Garlands)', quantity: '2', category: 'flowers' },
@@ -493,6 +507,7 @@ export const pujaSamagriList = [
       { name: 'Rice', quantity: '100 grams', category: 'grains' },
       { name: 'Match Box', quantity: '1', category: 'incense' },
       { name: 'Paan Patta (Betel Leaves)', quantity: '11', category: 'flowers' },
+      { name: 'Mango Leaf (Aam Patta)', quantity: '5', category: 'flowers' },
       { name: 'Dry Fruits', quantity: null, category: 'food' },
       { name: 'Panchamrit', quantity: null, category: 'liquids' },
       { name: 'Milk, Yogurt, Honey, Sugar, Ghee (for Abhishek)', quantity: null, category: 'liquids' },
@@ -525,6 +540,7 @@ export const pujaSamagriList = [
       { name: 'Rice', quantity: '100 grams', category: 'grains' },
       { name: 'Match Box', quantity: '1', category: 'incense' },
       { name: 'Paan Patta (Betel Leaves)', quantity: '5', category: 'flowers' },
+      { name: 'Mango Leaf (Aam Patta)', quantity: '5', category: 'flowers' },
       { name: 'Dry Fruits', quantity: null, category: 'food' },
       { name: 'Aluminum Foil Tray (large)', quantity: '2', category: 'vessels' },
       { name: 'Big Garland', quantity: '1', category: 'flowers' },

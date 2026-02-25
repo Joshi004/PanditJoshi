@@ -22,7 +22,25 @@ const checkColors = {
   special: 'bg-purple-500',
 }
 
-export default function SamagriItemCard({ item, isChecked, onToggle, preparationMode }) {
+function CameraIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-3.5 h-3.5"
+    >
+      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+      <circle cx="12" cy="13" r="4" />
+    </svg>
+  )
+}
+
+export default function SamagriItemCard({ item, isChecked, onToggle, preparationMode, imageSrc, onImageClick }) {
   const accent = categoryAccents[item.category] || 'border-l-gold-400'
   const checkBg = checkColors[item.category] || 'bg-gold-500'
 
@@ -77,6 +95,19 @@ export default function SamagriItemCard({ item, isChecked, onToggle, preparation
             {item.name}
           </p>
         </div>
+
+        {imageSrc && (
+          <button
+            onClick={(e) => {
+              e.stopPropagation()
+              onImageClick(imageSrc, item.name)
+            }}
+            aria-label={`View reference photo for ${item.name}`}
+            className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full text-gold-600 hover:text-saffron-600 hover:bg-saffron-50 transition-colors duration-150"
+          >
+            <CameraIcon />
+          </button>
+        )}
 
         {item.quantity ? (
           <span

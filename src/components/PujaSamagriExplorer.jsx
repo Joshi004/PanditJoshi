@@ -3,8 +3,9 @@ import { useSearchParams } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import ServiceIcon from './ServiceIcon'
 import SamagriItemCard from './SamagriItemCard'
+import SamagriImageModal from './SamagriImageModal'
 import ProgressRing from './ProgressRing'
-import { pujaSamagriList, CATEGORIES } from '../data/pujaSamagri'
+import { pujaSamagriList, CATEGORIES, SAMAGRI_IMAGES } from '../data/pujaSamagri'
 
 function ChevronLeft() {
   return (
@@ -66,6 +67,7 @@ export default function PujaSamagriExplorer() {
   const [preparationMode, setPreparationMode] = useState(false)
   const [checkedItems, setCheckedItems] = useState(loadChecks)
   const [copyFeedback, setCopyFeedback] = useState(false)
+  const [modalImage, setModalImage] = useState(null)
 
   const selectedBtnRef = useRef(null)
   const scrollRef = useRef(null)
@@ -467,6 +469,8 @@ export default function PujaSamagriExplorer() {
                       isChecked={!!pujaChecks[item.name]}
                       onToggle={() => toggleItem(item.name)}
                       preparationMode={preparationMode}
+                      imageSrc={SAMAGRI_IMAGES[item.name]?.src}
+                      onImageClick={(src, name) => setModalImage({ src, name, note: SAMAGRI_IMAGES[item.name]?.note })}
                     />
                   </motion.div>
                 ))}
@@ -475,6 +479,13 @@ export default function PujaSamagriExplorer() {
           ))}
         </motion.div>
       </AnimatePresence>
+
+      <SamagriImageModal
+        imageSrc={modalImage?.src}
+        itemName={modalImage?.name}
+        note={modalImage?.note}
+        onClose={() => setModalImage(null)}
+      />
     </div>
   )
 }

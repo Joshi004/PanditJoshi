@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate:panchang": "node scripts/generatePanchang.js"
+    "generate:panchang": "node scripts/generatePanchang.js",
+    "convert:samagri": "node scripts/convert-samagri-images.js"
   },
   "dependencies": {
     "framer-motion": "^12.34.3",
@@ -28,6 +29,7 @@
     "globals": "^16.5.0",
     "mhah-panchang": "^1.2.0",
     "postcss": "^8.5.6",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.19",
     "vite": "^7.3.1",
     "vite-plugin-pwa": "^1.2.0"
