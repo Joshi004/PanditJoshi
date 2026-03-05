@@ -1,5 +1,17 @@
 export const videos = [
   {
+    id: '3v9PT41wt1U',
+    title: 'Sundar Kand Puja Setup',
+    description: 'A quick guide to setting up the sacred space for Sunderkand Paath — arrangement of chowki, kalash, and puja essentials.',
+    isShort: true,
+  },
+  {
+    id: 'nJfNWko5oHU',
+    title: 'Puja Setup',
+    description: 'Step-by-step puja setup guide showing the correct arrangement of puja samagri for a traditional Hindu ceremony.',
+    isShort: true,
+  },
+  {
     id: '28_N9bWA_Lo',
     title: 'Devotional Bhajan',
     description: 'A heartfelt devotional bhajan by Pandit Joshi.',

@@ -1,7 +1,8 @@
-import { useEffect, useCallback } from 'react'
+import { useEffect, useCallback, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import ServiceIcon from './ServiceIcon'
+import VideoModal from './VideoModal'
 import { blogPosts } from '../data/blogPosts'
 import { pujaSamagriList, CATEGORIES } from '../data/pujaSamagri'
 
@@ -41,6 +42,8 @@ function ListIcon() {
 }
 
 export default function ServiceDetailModal({ service, onClose }) {
+  const [activeVideo, setActiveVideo] = useState(null)
+
   const article = service?.articleSlug
     ? blogPosts.find((p) => p.slug === service.articleSlug)
     : null
@@ -155,6 +158,38 @@ export default function ServiceDetailModal({ service, onClose }) {
               </div>
             )}
 
+            {/* Setup Video */}
+            {service.videos && service.videos.length > 0 && (
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <div className="h-px flex-1 bg-gold-300" />
+                  <span className="font-body text-[10px] uppercase tracking-widest text-gold-600 font-semibold whitespace-nowrap">
+                    Setup Guide
+                  </span>
+                  <div className="h-px flex-1 bg-gold-300" />
+                </div>
+                {service.videos.map((video) => (
+                  <button
+                    key={video.id}
+                    onClick={() => setActiveVideo(video)}
+                    className="flex items-center gap-3 w-full text-left bg-saffron-50 hover:bg-saffron-100 border border-gold-200 hover:border-saffron-300 rounded-xl px-4 py-3 transition-all duration-200 group"
+                  >
+                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-saffron-500 flex items-center justify-center shadow-sm group-hover:bg-saffron-600 transition-colors">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-3.5 h-3.5 ml-0.5">
+                        <polygon points="5 3 19 12 5 21 5 3" />
+                      </svg>
+                    </span>
+                    <div>
+                      <p className="font-body text-xs text-brown-500 leading-none mb-0.5">Watch Setup Video</p>
+                      <p className="font-body text-sm text-maroon-800 font-semibold leading-snug group-hover:text-saffron-700 transition-colors">
+                        {video.title}
+                      </p>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            )}
+
             {/* Puja Samagri glimpse */}
             {samagriEntry && previewItems.length > 0 && (
               <div className="space-y-3">
@@ -211,6 +246,16 @@ export default function ServiceDetailModal({ service, onClose }) {
           </div>
         </motion.div>
       </motion.div>
+
+      {/* Video Modal — z-[60] sits above the service modal z-50 */}
+      {activeVideo && (
+        <VideoModal
+          videoId={activeVideo.id}
+          title={activeVideo.title}
+          isShort={activeVideo.isShort}
+          onClose={() => setActiveVideo(null)}
+        />
+      )}
     </AnimatePresence>
   )
 }

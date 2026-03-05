@@ -1,7 +1,9 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import AnimatedSection, { StaggerContainer, AnimatedItem } from '../components/AnimatedSection'
 import ServiceIcon from '../components/ServiceIcon'
+import VideoModal from '../components/VideoModal'
 import { services } from '../data/services'
 import { blogPosts } from '../data/blogPosts'
 import { pujaSamagriList, CATEGORIES } from '../data/pujaSamagri'
@@ -62,9 +64,11 @@ function ChecklistIcon() {
   )
 }
 
+
 export default function ServiceDetail() {
   const { id } = useParams()
   const service = services.find((s) => s.id === id)
+  const [activeVideo, setActiveVideo] = useState(null)
 
   if (!service) return <Navigate to="/services" replace />
 
@@ -192,14 +196,48 @@ export default function ServiceDetail() {
 
           {/* ── Right column: sticky sidebar ── */}
           <div className="lg:col-span-1">
-            <div className="lg:sticky lg:top-24 space-y-6">
+            <div className="lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] flex flex-col gap-6">
 
-              {/* Samagri card */}
-              {samagriEntry && groupedSamagri.length > 0 && (
-                <AnimatedSection variant="fadeLeft" delay={0.15}>
+              {/* 1. Setup Video card (top, fixed) */}
+              {service.videos && service.videos.length > 0 && (
+                <AnimatedSection variant="fadeLeft" delay={0.15} className="flex-shrink-0">
                   <div className="bg-white border border-gold-200 rounded-2xl shadow-sm overflow-hidden">
-                    {/* Card header */}
                     <div className="bg-ivory-100 border-b border-gold-200 px-5 py-4">
+                      <p className="font-body text-[10px] uppercase tracking-widest text-gold-600 font-semibold mb-0.5">
+                        Setup Guide
+                      </p>
+                      <h3 className="font-heading text-maroon-800 text-base font-semibold">
+                        Watch Puja Setup
+                      </h3>
+                    </div>
+                    <div className="px-5 py-4 space-y-3">
+                      {service.videos.map((video) => (
+                        <button
+                          key={video.id}
+                          onClick={() => setActiveVideo(video)}
+                          className="flex items-center gap-3 w-full text-left bg-saffron-50 hover:bg-saffron-100 border border-gold-200 hover:border-saffron-300 rounded-xl px-4 py-3 transition-all duration-200 group"
+                        >
+                          <span className="flex-shrink-0 w-9 h-9 rounded-full bg-saffron-500 flex items-center justify-center shadow-sm group-hover:bg-saffron-600 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-4 ml-0.5">
+                              <polygon points="5 3 19 12 5 21 5 3" />
+                            </svg>
+                          </span>
+                          <span className="font-body text-sm text-maroon-800 font-semibold leading-snug group-hover:text-saffron-700 transition-colors">
+                            {video.title}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </AnimatedSection>
+              )}
+
+              {/* 2. Samagri card (middle, scrollable) */}
+              {samagriEntry && groupedSamagri.length > 0 && (
+                <AnimatedSection variant="fadeLeft" delay={0.2} className="flex-1 min-h-0 overflow-y-auto">
+                  <div className="bg-white border border-gold-200 rounded-2xl shadow-sm overflow-hidden flex flex-col">
+                    {/* Card header */}
+                    <div className="bg-ivory-100 border-b border-gold-200 px-5 py-4 flex-shrink-0">
                       <p className="font-body text-[10px] uppercase tracking-widest text-gold-600 font-semibold mb-0.5">
                         What You'll Need
                       </p>
@@ -208,8 +246,8 @@ export default function ServiceDetail() {
                       </h3>
                     </div>
 
-                    {/* Categorised items */}
-                    <div className="px-5 py-4 space-y-4 max-h-[480px] overflow-y-auto">
+                    {/* Categorised items — scrolls within the card */}
+                    <div className="px-5 py-4 space-y-4 overflow-y-auto">
                       {groupedSamagri.map((group) => (
                         <div key={group.key}>
                           <p className="font-body text-[9px] uppercase tracking-widest text-gold-600 font-bold mb-2">
@@ -237,7 +275,7 @@ export default function ServiceDetail() {
                     </div>
 
                     {/* Start Preparing CTA */}
-                    <div className="px-5 pb-5 pt-3 border-t border-gold-100">
+                    <div className="px-5 pb-5 pt-3 border-t border-gold-100 flex-shrink-0">
                       <Link
                         to={`/puja-samagri?samagri=${samagriEntry.id}`}
                         className="flex items-center justify-center gap-2 w-full bg-saffron-500 hover:bg-saffron-600 text-white font-body font-semibold text-sm px-4 py-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-200"
@@ -253,8 +291,8 @@ export default function ServiceDetail() {
                 </AnimatedSection>
               )}
 
-              {/* Book This Ceremony card */}
-              <AnimatedSection variant="fadeLeft" delay={0.25}>
+              {/* 3. Book This Ceremony card (bottom, fixed) */}
+              <AnimatedSection variant="fadeLeft" delay={0.25} className="flex-shrink-0">
                 <div className="bg-maroon-800 rounded-2xl p-6 shadow-lg text-center">
                   <motion.div
                     className="w-10 h-10 bg-saffron-500/20 border border-saffron-400/30 rounded-full flex items-center justify-center mx-auto mb-4"
@@ -283,6 +321,16 @@ export default function ServiceDetail() {
           </div>
         </div>
       </div>
+
+      {/* Video Modal */}
+      {activeVideo && (
+        <VideoModal
+          videoId={activeVideo.id}
+          title={activeVideo.title}
+          isShort={activeVideo.isShort}
+          onClose={() => setActiveVideo(null)}
+        />
+      )}
 
       {/* ── Bottom CTA banner ── */}
       <section className="py-14 relative overflow-hidden cta-gradient mt-6">

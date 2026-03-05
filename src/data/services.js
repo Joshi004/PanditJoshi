@@ -7,6 +7,9 @@ export const services = [
     featured: true,
     articleSlug: 'significance-of-satyanarayan-katha',
     samagriId: 'satyanarayan-puja',
+    videos: [
+      { id: 'nJfNWko5oHU', title: 'Puja Setup', isShort: true },
+    ],
   },
   {
     id: 'vastu-shanti',
@@ -115,6 +118,9 @@ export const services = [
     featured: false,
     articleSlug: 'sunderkand-paath-hanumanji',
     samagriId: 'sunder-kaand-paath',
+    videos: [
+      { id: '3v9PT41wt1U', title: 'Sundar Kand Puja Setup', isShort: true },
+    ],
   },
   {
     id: 'bhajan-sandhya',
