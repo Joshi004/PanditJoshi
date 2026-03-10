@@ -3,7 +3,7 @@ export const faqList = [
     id: 'advance-booking',
     question: 'How far in advance should I book a ceremony?',
     answer:
-      'For weddings and large ceremonies, it is best to reach out at least 4–6 weeks in advance to ensure availability. For smaller pujas like Satyanarayan Katha or Shiva Abhishek, 1–2 weeks is generally sufficient. Pandit Joshi will always do his best to accommodate last-minute requests.',
+      'For weddings and large ceremonies, it is best to reach out at least 4–6 weeks in advance to ensure availability. For smaller pujas like Satyanarayan Pooja or Shiv Pooja, 1–2 weeks is generally sufficient. Pandit Joshi will always do his best to accommodate last-minute requests.',
   },
   {
     id: 'travel-area',

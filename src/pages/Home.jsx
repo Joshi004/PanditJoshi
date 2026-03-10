@@ -60,8 +60,8 @@ export default function Home() {
       {/* ── SECTION A: Hero ─────────────────────────────────────── */}
       <section className="mandala-bg bg-ivory-50 py-16 md:py-24 overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
-            {/* Photo */}
+          <div className="flex flex-col md:flex-row items-center gap-10 md:gap-8">
+            {/* Shiva Photo — left */}
             <motion.div
               className="flex-shrink-0 flex flex-col items-center"
               initial={{ opacity: 0, scale: 0.85 }}
@@ -69,51 +69,50 @@ export default function Home() {
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="relative">
-                {/* Decorative ring */}
                 <motion.div
                   className="absolute -inset-3 rounded-full border-2 border-gold-300 opacity-60"
-                  animate={{ rotate: 360 }}
+                  animate={{ rotate: -360 }}
                   transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}
                 />
-                <div className="rounded-full border-4 border-gold-400 shadow-xl overflow-hidden w-56 h-56 md:w-72 md:h-72 relative z-10">
+                <div className="rounded-full border-4 border-gold-400 shadow-xl overflow-hidden w-48 h-48 md:w-60 md:h-60 relative z-10">
                   <img
-                    src={`${import.meta.env.BASE_URL}pandit-joshi.png`}
-                    alt="Pandit Joshi"
+                    src={`${import.meta.env.BASE_URL}shiva.webp`}
+                    alt="Lord Shiva"
                     className="w-full h-full object-cover object-top"
                   />
                 </div>
               </div>
             </motion.div>
 
-            {/* Text */}
+            {/* Text — center */}
             <motion.div
-              className="flex-1 text-center md:text-left"
-              initial={{ opacity: 0, x: 40 }}
-              animate={{ opacity: 1, x: 0 }}
+              className="flex-1 text-center"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             >
               <p className="font-body text-saffron-500 uppercase tracking-widest text-sm font-semibold mb-2">
                 || Radhe Radhe ||
               </p>
               <h1 className="font-heading text-4xl md:text-5xl text-maroon-800 font-bold mb-4 leading-tight">
-                Welcome, I am <br className="hidden md:block" />
+                I am <br className="hidden md:block" />
                 Pandit Joshi
               </h1>
               <motion.div
-                className="h-1 bg-gold-500 rounded-full mb-8 mx-auto md:mx-0"
+                className="h-1 bg-gold-500 rounded-full mb-8 mx-auto"
                 initial={{ width: 0 }}
                 animate={{ width: 80 }}
                 transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
               />
               <p className="font-body text-brown-700 text-base md:text-lg leading-relaxed mb-6">
-                I perform all religious activities like Satya Narayan Katha, Vastu Shanti,
-                Annaprashan, Namakaran, Chudakaran, Threading (Janeu), Wedding Ceremony, Navgraha
-                Shanti Hawan, Musical Satya Narayan Puja, Akhanda Ramayan Paath, Mata Ki Chowki,
-                Shiva Abhishek, Sunderkand Paath in Ragamalica Bhajan Sandhya, and any other
+                I perform all religious activities like Satyanarayan Pooja, Vastu Shanti / Grih Pravesh,
+                Annaprashan, Naming Ceremony, Chudakaran, Yagnopaveet, Wedding Ceremony, Shanti Havan,
+                Musical Satyanarayan Pooja, Akhanda Ramayan Paath, Mata Ki Chowki,
+                Shiv Pooja, Sunderkand Paath in Ragamalica Bhajan Sandhya, and any other
                 musical religious event. These ceremonies can be performed at your home or at the
                 opening of a new office or venture.
               </p>
-              <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
                   <Link to="/services" className="btn-primary">
                     View Services
@@ -124,6 +123,29 @@ export default function Home() {
                     Contact Me
                   </Link>
                 </motion.div>
+              </div>
+            </motion.div>
+
+            {/* Pandit Photo — right */}
+            <motion.div
+              className="flex-shrink-0 flex flex-col items-center"
+              initial={{ opacity: 0, scale: 0.85 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <div className="relative">
+                <motion.div
+                  className="absolute -inset-3 rounded-full border-2 border-gold-300 opacity-60"
+                  animate={{ rotate: 360 }}
+                  transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}
+                />
+                <div className="rounded-full border-4 border-gold-400 shadow-xl overflow-hidden w-48 h-48 md:w-60 md:h-60 relative z-10">
+                  <img
+                    src={`${import.meta.env.BASE_URL}pandit-joshi.png`}
+                    alt="Pandit Joshi"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
               </div>
             </motion.div>
           </div>

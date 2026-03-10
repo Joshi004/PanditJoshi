@@ -64,6 +64,15 @@ function ChecklistIcon() {
   )
 }
 
+function BookIcon({ className = 'w-3.5 h-3.5' }) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+    </svg>
+  )
+}
+
 
 export default function ServiceDetail() {
   const { id } = useParams()
@@ -198,41 +207,54 @@ export default function ServiceDetail() {
           <div className="lg:col-span-1">
             <div className="lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] flex flex-col gap-6">
 
-              {/* 1. Setup Video card (top, fixed) */}
-              {service.videos && service.videos.length > 0 && (
+              {/* 1 & 2. Compact Puja Resources card (video + katha PDF combined) */}
+              {(service.videos?.length > 0 || service.kathaUrl) && (
                 <AnimatedSection variant="fadeLeft" delay={0.15} className="flex-shrink-0">
                   <div className="bg-white border border-gold-200 rounded-2xl shadow-sm overflow-hidden">
-                    <div className="bg-ivory-100 border-b border-gold-200 px-5 py-4">
-                      <p className="font-body text-[10px] uppercase tracking-widest text-gold-600 font-semibold mb-0.5">
-                        Setup Guide
+                    <div className="bg-ivory-100 border-b border-gold-200 px-4 py-2.5">
+                      <p className="font-body text-[10px] uppercase tracking-widest text-gold-600 font-semibold">
+                        Puja Resources
                       </p>
-                      <h3 className="font-heading text-maroon-800 text-base font-semibold">
-                        Watch Puja Setup
-                      </h3>
                     </div>
-                    <div className="px-5 py-4 space-y-3">
-                      {service.videos.map((video) => (
+                    <div className="divide-y divide-gold-100">
+                      {service.videos?.map((video) => (
                         <button
                           key={video.id}
                           onClick={() => setActiveVideo(video)}
-                          className="flex items-center gap-3 w-full text-left bg-saffron-50 hover:bg-saffron-100 border border-gold-200 hover:border-saffron-300 rounded-xl px-4 py-3 transition-all duration-200 group"
+                          className="flex items-center gap-3 w-full text-left px-4 py-2.5 hover:bg-saffron-50 transition-colors duration-150 group"
                         >
-                          <span className="flex-shrink-0 w-9 h-9 rounded-full bg-saffron-500 flex items-center justify-center shadow-sm group-hover:bg-saffron-600 transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-4 ml-0.5">
+                          <span className="flex-shrink-0 w-7 h-7 rounded-full bg-saffron-500 flex items-center justify-center shadow-sm group-hover:bg-saffron-600 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-3 h-3 ml-0.5">
                               <polygon points="5 3 19 12 5 21 5 3" />
                             </svg>
                           </span>
-                          <span className="font-body text-sm text-maroon-800 font-semibold leading-snug group-hover:text-saffron-700 transition-colors">
+                          <span className="font-body text-sm text-maroon-800 font-medium group-hover:text-saffron-700 transition-colors">
                             {video.title}
                           </span>
                         </button>
                       ))}
+                      {service.kathaUrl && (
+                        <a
+                          href={service.kathaUrl}
+                          download
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex items-center gap-3 w-full px-4 py-2.5 hover:bg-saffron-50 transition-colors duration-150 group"
+                        >
+                          <span className="flex-shrink-0 w-7 h-7 rounded-full bg-saffron-500/15 border border-saffron-300 flex items-center justify-center text-saffron-600 group-hover:bg-saffron-500/25 transition-colors">
+                            <BookIcon />
+                          </span>
+                          <span className="font-body text-sm text-maroon-800 font-medium group-hover:text-saffron-700 transition-colors">
+                            Download Katha PDF
+                          </span>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </AnimatedSection>
               )}
 
-              {/* 2. Samagri card (middle, scrollable) */}
+              {/* 3. Samagri card (middle, scrollable) */}
               {samagriEntry && groupedSamagri.length > 0 && (
                 <AnimatedSection variant="fadeLeft" delay={0.2} className="flex-1 min-h-0 overflow-y-auto">
                   <div className="bg-white border border-gold-200 rounded-2xl shadow-sm overflow-hidden flex flex-col">
@@ -291,7 +313,7 @@ export default function ServiceDetail() {
                 </AnimatedSection>
               )}
 
-              {/* 3. Book This Ceremony card (bottom, fixed) */}
+              {/* 4. Book This Ceremony card (bottom, fixed) */}
               <AnimatedSection variant="fadeLeft" delay={0.25} className="flex-shrink-0">
                 <div className="bg-maroon-800 rounded-2xl p-6 shadow-lg text-center">
                   <motion.div

@@ -18,10 +18,10 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-saffron-500 hover:bg-saffron-600 active:scale-95 text-white font-body font-bold px-6 py-3 rounded-md transition-all duration-200 shadow-md hover:shadow-lg;
+    @apply inline-block bg-saffron-500 hover:bg-saffron-600 active:scale-95 text-white font-body font-bold px-6 py-3 rounded-md transition-all duration-200 shadow-md hover:shadow-lg;
   }
   .btn-outline {
-    @apply border-2 border-maroon-800 text-maroon-800 hover:bg-maroon-800 hover:text-white active:scale-95 font-body font-bold px-6 py-3 rounded-md transition-all duration-200;
+    @apply inline-block border-2 border-maroon-800 text-maroon-800 hover:bg-maroon-800 hover:text-white active:scale-95 font-body font-bold px-6 py-3 rounded-md transition-all duration-200;
   }
   .section-title {
     @apply font-heading text-3xl md:text-4xl text-maroon-800 text-center mb-3;

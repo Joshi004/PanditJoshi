@@ -2,11 +2,12 @@ export const services = [
   {
     id: 'satyanarayan-katha',
     icon: 'diya',
-    name: 'Satya Narayan Katha',
+    name: 'Satyanarayan Pooja',
     description: 'Sacred recitation of the glory of Lord Satyanarayan for blessings and prosperity.',
     featured: true,
     articleSlug: 'significance-of-satyanarayan-katha',
     samagriId: 'satyanarayan-puja',
+    kathaUrl: '/satyanarayanakatha.pdf',
     videos: [
       { id: 'nJfNWko5oHU', title: 'Puja Setup', isShort: true },
     ],
@@ -14,7 +15,7 @@ export const services = [
   {
     id: 'vastu-shanti',
     icon: 'kalash',
-    name: 'Vastu Shanti',
+    name: 'Vastu Shanti / Grih Pravesh',
     description: 'Purification and blessing of a new home or office to ensure harmony and positive energy.',
     featured: false,
     articleSlug: 'understanding-vastu-shanti',
@@ -32,7 +33,7 @@ export const services = [
   {
     id: 'namakaran',
     icon: 'namakaran',
-    name: 'Namakaran',
+    name: 'Naming Ceremony',
     description: 'The Hindu naming ceremony where a newborn is formally given their name with Vedic rituals.',
     featured: false,
     articleSlug: 'namakaran-the-power-of-a-name',
@@ -50,7 +51,7 @@ export const services = [
   {
     id: 'threading',
     icon: 'janeu',
-    name: 'Threading (Janeu)',
+    name: 'Yagnopaveet',
     description: "The sacred thread ceremony (Upanayana) marking a young boy's initiation into Vedic studies.",
     featured: false,
     articleSlug: 'upanayana-janeu-sacred-thread',
@@ -68,7 +69,7 @@ export const services = [
   {
     id: 'navgraha-shanti',
     icon: 'navgraha',
-    name: 'Navgraha Shanti Hawan',
+    name: 'Shanti Havan',
     description: 'Sacred fire ritual to appease all nine planetary deities and bring peace and good fortune.',
     featured: true,
     articleSlug: 'navgraha-shanti-hawan',
@@ -77,11 +78,12 @@ export const services = [
   {
     id: 'musical-satyanarayan',
     icon: 'musical-puja',
-    name: 'Musical Satya Narayan Puja',
+    name: 'Musical Satyanarayan Pooja',
     description: 'A melodious rendition of Satyanarayan Puja accompanied by devotional bhajans and music.',
     featured: false,
     articleSlug: 'significance-of-satyanarayan-katha',
     samagriId: 'satyanarayan-puja',
+    kathaUrl: '/satyanarayanakatha.pdf',
   },
   {
     id: 'akhanda-ramayan',
@@ -104,7 +106,7 @@ export const services = [
   {
     id: 'shiva-abhishek',
     icon: 'shiva-abhishek',
-    name: 'Shiva Abhishek',
+    name: 'Shiv Pooja',
     description: "Sacred bathing of the Shiva Lingam with milk, honey, and holy water, pleasing Lord Shiva.",
     featured: false,
     articleSlug: 'shiva-abhishek-bathing-the-infinite',
