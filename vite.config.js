@@ -55,7 +55,8 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // Only precache small JS/CSS/HTML assets; large images load from network
+        skipWaiting: true,
+        clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,svg,woff2}'],
         navigateFallback: `${base}index.html`,
         navigateFallbackDenylist: [new RegExp('^' + base.replace(/\//g, '\\/') + 'api\\/')],
