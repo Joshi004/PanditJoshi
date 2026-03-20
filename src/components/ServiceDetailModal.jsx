@@ -5,6 +5,7 @@ import ServiceIcon from './ServiceIcon'
 import VideoModal from './VideoModal'
 import { blogPosts } from '../data/blogPosts'
 import { pujaSamagriList, CATEGORIES } from '../data/pujaSamagri'
+import { DEFAULT_SETUP_VIDEO } from '../data/services'
 
 const CATEGORY_ORDER = Object.entries(CATEGORIES)
   .sort(([, a], [, b]) => a.order - b.order)
@@ -51,6 +52,12 @@ export default function ServiceDetailModal({ service, onClose }) {
   const samagriEntry = service?.samagriId
     ? pujaSamagriList.find((p) => p.id === service.samagriId)
     : null
+
+  const serviceVideos = service?.videos ?? []
+  const allVideos = [
+    DEFAULT_SETUP_VIDEO,
+    ...serviceVideos.filter((v) => v.id !== DEFAULT_SETUP_VIDEO.id),
+  ]
 
   // Show at most 8 items, favouring the first few categories
   const previewItems = samagriEntry
@@ -159,7 +166,7 @@ export default function ServiceDetailModal({ service, onClose }) {
             )}
 
             {/* Setup Video */}
-            {service.videos && service.videos.length > 0 && (
+            {allVideos.length > 0 && (
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <div className="h-px flex-1 bg-gold-300" />
@@ -168,7 +175,7 @@ export default function ServiceDetailModal({ service, onClose }) {
                   </span>
                   <div className="h-px flex-1 bg-gold-300" />
                 </div>
-                {service.videos.map((video) => (
+                {allVideos.map((video) => (
                   <button
                     key={video.id}
                     onClick={() => setActiveVideo(video)}

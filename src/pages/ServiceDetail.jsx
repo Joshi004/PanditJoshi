@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import AnimatedSection, { StaggerContainer, AnimatedItem } from '../components/AnimatedSection'
 import ServiceIcon from '../components/ServiceIcon'
 import VideoModal from '../components/VideoModal'
-import { services } from '../data/services'
+import { services, DEFAULT_SETUP_VIDEO } from '../data/services'
 import { blogPosts } from '../data/blogPosts'
 import { pujaSamagriList, CATEGORIES } from '../data/pujaSamagri'
 
@@ -90,6 +90,12 @@ export default function ServiceDetail() {
     : null
 
   const groupedSamagri = samagriEntry ? groupSamagriByCategory(samagriEntry.items) : []
+
+  const serviceVideos = service.videos ?? []
+  const allVideos = [
+    DEFAULT_SETUP_VIDEO,
+    ...serviceVideos.filter((v) => v.id !== DEFAULT_SETUP_VIDEO.id),
+  ]
 
   return (
     <div className="bg-ivory-50 min-h-screen">
@@ -208,7 +214,7 @@ export default function ServiceDetail() {
             <div className="lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] flex flex-col gap-6">
 
               {/* 1 & 2. Compact Puja Resources card (video + katha PDF combined) */}
-              {(service.videos?.length > 0 || service.kathaUrl) && (
+              {(allVideos.length > 0 || service.kathaUrl) && (
                 <AnimatedSection variant="fadeLeft" delay={0.15} className="flex-shrink-0">
                   <div className="bg-white border border-gold-200 rounded-2xl shadow-sm overflow-hidden">
                     <div className="bg-ivory-100 border-b border-gold-200 px-4 py-2.5">
@@ -217,7 +223,7 @@ export default function ServiceDetail() {
                       </p>
                     </div>
                     <div className="divide-y divide-gold-100">
-                      {service.videos?.map((video) => (
+                      {allVideos.map((video) => (
                         <button
                           key={video.id}
                           onClick={() => setActiveVideo(video)}

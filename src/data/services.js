@@ -1,3 +1,5 @@
+export const DEFAULT_SETUP_VIDEO = { id: 'nJfNWko5oHU', title: 'Puja Setup', isShort: true }
+
 export const services = [
   {
     id: 'satyanarayan-katha',
@@ -8,9 +10,6 @@ export const services = [
     articleSlug: 'significance-of-satyanarayan-katha',
     samagriId: 'satyanarayan-puja',
     kathaUrl: '/satyanarayanakatha.pdf',
-    videos: [
-      { id: 'nJfNWko5oHU', title: 'Puja Setup', isShort: true },
-    ],
   },
   {
     id: 'vastu-shanti',
