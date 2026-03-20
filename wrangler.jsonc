@@ -2,6 +2,7 @@
   "name": "pandit-joshi",
   "compatibility_date": "2026-02-21",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
   }
 }
