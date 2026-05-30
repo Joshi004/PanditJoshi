@@ -64,6 +64,7 @@ export const services = [
     featured: true,
     articleSlug: 'hindu-vivah-wedding-ceremony',
     samagriId: 'wedding-ceremony',
+    skipDefaultVideo: true,
   },
   {
     id: 'navgraha-shanti',
@@ -101,6 +102,7 @@ export const services = [
     featured: true,
     articleSlug: 'mata-ki-chowki-divine-mother',
     samagriId: 'mata-ki-chowki',
+    skipDefaultVideo: true,
   },
   {
     id: 'shiva-abhishek',
@@ -119,6 +121,7 @@ export const services = [
     featured: false,
     articleSlug: 'sunderkand-paath-hanumanji',
     samagriId: 'sunder-kaand-paath',
+    skipDefaultVideo: true,
     videos: [
       { id: '3v9PT41wt1U', title: 'Sundar Kand Puja Setup', isShort: true },
     ],

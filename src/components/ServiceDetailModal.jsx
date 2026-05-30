@@ -55,7 +55,7 @@ export default function ServiceDetailModal({ service, onClose }) {
 
   const serviceVideos = service?.videos ?? []
   const allVideos = [
-    DEFAULT_SETUP_VIDEO,
+    ...(service?.skipDefaultVideo ? [] : [DEFAULT_SETUP_VIDEO]),
     ...serviceVideos.filter((v) => v.id !== DEFAULT_SETUP_VIDEO.id),
   ]
 
