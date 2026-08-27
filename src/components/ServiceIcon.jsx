@@ -242,22 +242,23 @@ function MataKiChowkiIcon({ className }) {
 function ShivaAbhishekIcon({ className }) {
   return (
     <svg className={className} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      {/* Shiva Lingam */}
-      <ellipse cx="24" cy="36" rx="12" ry="4" fill="#b07d20"/>
-      <rect x="16" y="22" width="16" height="16" rx="8" fill="#9ca3af" stroke="#6b7280" strokeWidth="1"/>
-      {/* Lingam rounded top */}
-      <ellipse cx="24" cy="22" rx="8" ry="3" fill="#d1d5db"/>
-      {/* Water/milk drops pouring */}
-      <path d="M20 6 Q20 10 18 14 Q20 16 20 18" stroke="#60a5fa" strokeWidth="1.5" strokeDasharray="2 1.5" fill="none" strokeLinecap="round"/>
-      <path d="M24 4 Q24 8 24 12 Q24 16 24 18" stroke="#93c5fd" strokeWidth="1.5" strokeDasharray="2 1.5" fill="none" strokeLinecap="round"/>
-      <path d="M28 6 Q28 10 30 14 Q28 16 28 18" stroke="#60a5fa" strokeWidth="1.5" strokeDasharray="2 1.5" fill="none" strokeLinecap="round"/>
-      {/* Drops */}
-      <ellipse cx="18" cy="20" rx="1.5" ry="2" fill="#93c5fd"/>
-      <ellipse cx="24" cy="20" rx="1.5" ry="2" fill="#bfdbfe"/>
-      <ellipse cx="30" cy="20" rx="1.5" ry="2" fill="#93c5fd"/>
-      {/* Bilva leaves decoration */}
-      <path d="M10 28 Q8 24 12 24 Q12 28 10 28Z" fill="#22c55e" opacity="0.7"/>
-      <path d="M38 28 Q40 24 36 24 Q36 28 38 28Z" fill="#22c55e" opacity="0.7"/>
+      {/* Yoni base (argha) with spout */}
+      <ellipse cx="24" cy="35" rx="15" ry="6" fill="#6b4c36"/>
+      <path d="M36 32 Q45 31 45 35 Q45 39 36 38Z" fill="#6b4c36"/>
+      <path d="M9 32 Q24 28 39 32" stroke="#C5962E" strokeWidth="1.5" fill="none" opacity="0.8"/>
+      {/* Lingam */}
+      <path d="M16 35 L16 19 Q16 9 24 7 Q32 9 32 19 L32 35Z" fill="#3D2B1F"/>
+      <path d="M19.5 31 Q19.5 17 24 10" stroke="#6b4c36" strokeWidth="1" fill="none" opacity="0.6" strokeLinecap="round"/>
+      {/* Gold collar */}
+      <ellipse cx="24" cy="31" rx="9" ry="2.5" fill="none" stroke="#C5962E" strokeWidth="1.5" opacity="0.9"/>
+      {/* Tripundra + bindi */}
+      <path d="M18.5 15 Q24 18 29.5 15" stroke="white" strokeWidth="1.4" fill="none" strokeLinecap="round"/>
+      <path d="M18 19 Q24 22 30 19" stroke="white" strokeWidth="1.4" fill="none" strokeLinecap="round"/>
+      <path d="M18.5 23 Q24 26 29.5 23" stroke="white" strokeWidth="1.4" fill="none" strokeLinecap="round"/>
+      <circle cx="24" cy="19" r="1.7" fill="#dc2626"/>
+      {/* Bilva leaves */}
+      <path d="M8 30 Q5 26 9 25 Q10 29 8 30Z" fill="#22c55e" opacity="0.75"/>
+      <path d="M40 30 Q43 26 39 25 Q38 29 40 30Z" fill="#22c55e" opacity="0.75"/>
     </svg>
   )
 }

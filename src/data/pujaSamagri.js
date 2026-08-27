@@ -509,7 +509,6 @@ export const pujaSamagriList = [
       { name: 'Rice', quantity: '1 lb', category: 'grains' },
       { name: 'Match Box', quantity: '1', category: 'incense' },
       { name: 'Paan Patta (Betel Leaves)', quantity: '11', category: 'flowers' },
-      { name: 'Mango Leaf (Aam Patta)', quantity: '5', category: 'flowers' },
       { name: 'Dry Fruits', quantity: null, category: 'food' },
       { name: 'Panchamrit', quantity: null, category: 'liquids' },
       { name: 'Milk, Yogurt, Honey, Sugar, Ghee (for Abhishek)', quantity: null, category: 'liquids' },
